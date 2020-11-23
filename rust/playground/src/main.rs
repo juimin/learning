@@ -1,6 +1,7 @@
 mod variables;
 
 fn main() {
-    variables::print_hello();
-
+    // Each module in the playground will include a run function and run everything
+    // related to said module
+    variables::main();
 }
