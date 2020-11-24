@@ -1,4 +1,5 @@
 mod datatypes;
+mod functions;
 mod variables;
 
 fn main() {
@@ -6,5 +7,5 @@ fn main() {
     // related to said module
     variables::main();
     datatypes::main();
-
+    functions::main();
 }
