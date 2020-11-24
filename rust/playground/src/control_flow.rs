@@ -96,6 +96,16 @@ fn for_loops() {
     println!("LIFTOFF!!!");
 }
 
+fn fibbonaci(n: u32) -> u32 {
+    if n == 0 {
+        return 1
+    } else if n == 1 {
+        return 1
+    } else {
+        return fibbonaci(n-1) + fibbonaci(n-2)
+    }
+}
+
 pub fn main() {
     println!("Control Flow Baby");
     control_flow_ex();
@@ -103,4 +113,8 @@ pub fn main() {
     loopyland();
     whileloops();
     for_loops();
+
+    for x in 0..10 {
+        println!("Fibbonaci {} is {}", x, fibbonaci(x));
+    }
 }
