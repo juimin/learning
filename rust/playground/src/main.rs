@@ -1,3 +1,4 @@
+mod control_flow;
 mod datatypes;
 mod functions;
 mod variables;
@@ -8,4 +9,5 @@ fn main() {
     variables::main();
     datatypes::main();
     functions::main();
+    control_flow::main();
 }
