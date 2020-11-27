@@ -3,6 +3,7 @@ mod datatypes;
 mod functions;
 mod ownership;
 mod references_borrowing;
+mod structures;
 mod slices;
 mod variables;
 
@@ -16,4 +17,5 @@ fn main() {
     ownership::main();
     references_borrowing::main();
     slices::main();
+    structures::main();
 }
