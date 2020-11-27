@@ -3,6 +3,7 @@ mod datatypes;
 mod functions;
 mod ownership;
 mod references_borrowing;
+mod slices;
 mod variables;
 
 fn main() {
@@ -14,4 +15,5 @@ fn main() {
     control_flow::main();
     ownership::main();
     references_borrowing::main();
+    slices::main();
 }
