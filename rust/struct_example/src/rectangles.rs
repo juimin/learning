@@ -44,6 +44,14 @@ struct Rectangle {
     height: u32,
 }
 
+
+// This version includes the derived debug annotation
+#[derive(Debug)]
+struct DebugRectangle {
+    width: u32,
+    height: u32,
+}
+
 pub fn struct_version() {
     let rect = Rectangle {
         width: 30,
@@ -56,4 +64,24 @@ pub fn struct_version() {
 fn struct_area(rect: &Rectangle) -> u32 {
     // Remember the final statement is a return and we don't have to specify return
     rect.width * rect.height
+}
+
+
+// Version with traits
+pub fn trait_version() {
+    let rect = Rectangle {
+        width: 30,
+        height: 50,
+    };
+    println!("Struct with Traits Version");
+    // Regular {} will attempt to use the Display Trait
+    // {:?} will attempt to use the Debug trait (why debug for pretty print?)
+        // This seems to be the json ish version
+    // {:#?} is a further option we could use to display with more detail (struct name) 
+    let debug_rect = DebugRectangle {
+        width: 30,
+        height: 50,    
+    };
+    println!("Test print the struct {:#?}", debug_rect);
+    println!("The area of the struct rectangle is {}", struct_area(&rect));
 }
