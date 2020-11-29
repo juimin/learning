@@ -6,4 +6,5 @@ fn main() {
     rectangles::tuple_version();
     rectangles::struct_version();
     rectangles::trait_version();
+    rectangles::dubious_version();
 }

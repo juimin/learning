@@ -96,3 +96,35 @@ pub fn trait_version() {
     println!("Test print the struct {:#?}", debug_rect);
     println!("The area of the rectangle using a struct method is {}", debug_rect.area());
 }
+
+// This version includes the derived debug annotation
+#[derive(Debug)]
+struct DubiousDebugRectangle {
+    width: u32,
+    height: u32,
+    area: u32,
+}
+
+impl DubiousDebugRectangle {
+    fn calc_area(&mut self) -> u32 {
+        self.area = self.height * self.width;
+        self.area
+    }
+}
+
+pub fn dubious_version() {
+    println!("Struct with Dubious Traits Version");
+    // Regular {} will attempt to use the Display Trait
+    // {:?} will attempt to use the Debug trait (why debug for pretty print?)
+        // This seems to be the json ish version
+    // {:#?} is a further option we could use to display with more detail (struct name) 
+    let mut debug_rect = DubiousDebugRectangle {
+        width: 30,
+        height: 50,
+        area: 0,
+    };
+    println!("The area of the dubious rectangle using a struct method before {}", debug_rect.area); 
+    debug_rect.calc_area();
+    println!("Test print the struct {:#?}", debug_rect);
+    println!("The area of the dubious rectangle using a struct method after {}", debug_rect.area); 
+}
