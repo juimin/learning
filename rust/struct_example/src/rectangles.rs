@@ -67,12 +67,23 @@ fn struct_area(rect: &Rectangle) -> u32 {
 }
 
 
+// Implement the area function on the Rectangle itself
+
+/* REMEMBER THIS
+However, methods are different from functions in that they’re defined within the context of a struct 
+(or an enum or a trait object, which we cover in Chapters 6 and 17, respectively), 
+and their first parameter is always self, which represents the instance of the struct the method is being called on.
+*/
+impl DebugRectangle {
+    // See how this rectangle implements the area method
+    // Remember methods always take the first arg as the reference to the object instance
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+}
+
 // Version with traits
 pub fn trait_version() {
-    let rect = Rectangle {
-        width: 30,
-        height: 50,
-    };
     println!("Struct with Traits Version");
     // Regular {} will attempt to use the Display Trait
     // {:?} will attempt to use the Debug trait (why debug for pretty print?)
@@ -83,5 +94,5 @@ pub fn trait_version() {
         height: 50,    
     };
     println!("Test print the struct {:#?}", debug_rect);
-    println!("The area of the struct rectangle is {}", struct_area(&rect));
+    println!("The area of the rectangle using a struct method is {}", debug_rect.area());
 }
