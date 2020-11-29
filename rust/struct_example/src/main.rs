@@ -3,4 +3,6 @@ mod rectangles;
 
 fn main() {
     rectangles::initial_version();
+    rectangles::tuple_version();
+    rectangles::struct_version();
 }
