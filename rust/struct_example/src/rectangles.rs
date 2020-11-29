@@ -128,3 +128,8 @@ pub fn dubious_version() {
     println!("Test print the struct {:#?}", debug_rect);
     println!("The area of the dubious rectangle using a struct method after {}", debug_rect.area); 
 }
+
+// Notes about C and C++
+// The arrow is a remnant of the old language. You use . syntax if you're calling the method on the object directly
+// If you have a reference to an object, you can call the method using the arrow.
+// object->something() is similar to (*object).something().
