@@ -1,3 +1,6 @@
+mod rectangles;
+// Example program where we start usin gstructs
+
 fn main() {
-    println!("Hello, world!");
+    rectangles::initial_version();
 }
