@@ -152,10 +152,23 @@ pub fn more_version() {
     };
     println!("Can rect1 hold rect2? {}", rect1.can_hold(&rect2));
     println!("Can rect1 hold rect3? {}", rect1.can_hold(&rect3));
+
+    let sq = DebugRectangle::square(20);
+    println!("Area of the square is {}", sq.area());
 }
 
 impl DebugRectangle {
     fn can_hold(&self, other: &DebugRectangle) -> bool {
         self.width > other.width && self.height > other.height
+    }
+    // We can also define functions here that are attached to the struct (class functions)
+    // We don't classify them as methods because they don't take self
+    
+    // This returns a rectangle with a square
+    fn square(size: u32) -> DebugRectangle {
+        DebugRectangle {
+            width: size,
+            height: size,
+        }
     }
 }
