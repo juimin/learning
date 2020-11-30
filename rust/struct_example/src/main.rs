@@ -7,4 +7,5 @@ fn main() {
     rectangles::struct_version();
     rectangles::trait_version();
     rectangles::dubious_version();
+    rectangles::more_version();
 }

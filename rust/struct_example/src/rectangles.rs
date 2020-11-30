@@ -133,3 +133,29 @@ pub fn dubious_version() {
 // The arrow is a remnant of the old language. You use . syntax if you're calling the method on the object directly
 // If you have a reference to an object, you can call the method using the arrow.
 // object->something() is similar to (*object).something().
+
+// Methods with more params
+
+pub fn more_version() {
+    println!("The more params version.");
+    let rect1 = DebugRectangle {
+        width: 30,
+        height: 50,
+    };
+    let rect2 = DebugRectangle {
+        width: 10,
+        height: 40,
+    };
+    let rect3 = DebugRectangle {
+        width: 60,
+        height: 45,
+    };
+    println!("Can rect1 hold rect2? {}", rect1.can_hold(&rect2));
+    println!("Can rect1 hold rect3? {}", rect1.can_hold(&rect3));
+}
+
+impl DebugRectangle {
+    fn can_hold(&self, other: &DebugRectangle) -> bool {
+        self.width > other.width && self.height > other.height
+    }
+}
