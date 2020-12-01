@@ -23,6 +23,8 @@ pub fn main() {
     mixed_enum();
     use_message();
     try_out_options();
+    run_value_in_cents();
+    run_state_value_stuff();
 }
 
 // Sample enum
@@ -192,4 +194,83 @@ fn try_out_options() {
     }
 
     // In general, rust makes you be very deliberate about handling variables.
+}
+
+// MATCH CONTROL FLOW
+// Essentially the switch statement except for enums
+
+enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter,
+}
+
+fn value_in_cents(coin: Coin) -> u8 {
+    // Recognize that these are evaluated in order
+    match coin {
+        // Brackets can be used if you need more logic
+        Coin::Penny => {
+            println!("Lucky penny!");
+            1
+        }
+        Coin::Nickel => 5,
+        Coin::Dime => 10,
+        Coin::Quarter => 25,
+    }
+}
+
+fn run_value_in_cents() {
+    let p = Coin::Penny;
+    let n = Coin::Nickel;
+    let d = Coin::Dime;
+    let q = Coin::Quarter;
+
+    println!("Value of coin is {}", value_in_cents(p));
+    println!("Value of coin is {}", value_in_cents(n));
+    println!("Value of coin is {}", value_in_cents(q));
+    println!("Value of coin is {}", value_in_cents(d));
+}
+
+// Another useful feature of match arms is that they can bind to the parts of the values that match the pattern. 
+// This is how we can extract values out of enum variants.
+
+#[derive(Debug)] // so we can inspect the state in a minute
+enum UsState {
+    Alabama,
+    Alaska,
+    // --snip--
+}
+
+enum StateCoin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter(UsState),
+}
+
+fn state_value_in_cents(coin: StateCoin) -> u8 {
+    match coin {
+        StateCoin::Penny => 1,
+        StateCoin::Nickel => 5,
+        StateCoin::Dime => 10,
+        StateCoin::Quarter(state) => {
+            println!("State quarter from {:?}!", state);
+            25
+        }
+    }
+}
+
+fn run_state_value_stuff() {
+    let p = StateCoin::Penny;
+    let n = StateCoin::Nickel;
+    let d = StateCoin::Dime;
+    let q = StateCoin::Quarter(UsState::Alaska);
+    let q2 = StateCoin::Quarter(UsState::Alabama);
+
+    println!("Value of coin is {}", state_value_in_cents(p));
+    println!("Value of coin is {}", state_value_in_cents(n));
+    println!("Value of coin is {}", state_value_in_cents(q));
+    println!("Value of coin is {}", state_value_in_cents(d));
+    println!("Value of coin is {}", state_value_in_cents(q2));
 }
