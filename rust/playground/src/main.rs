@@ -1,5 +1,6 @@
 mod control_flow;
 mod datatypes;
+mod enums;
 mod functions;
 mod ownership;
 mod references_borrowing;
@@ -18,4 +19,5 @@ fn main() {
     references_borrowing::main();
     slices::main();
     structures::main();
+    enums::main();
 }
