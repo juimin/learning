@@ -180,4 +180,14 @@ fn try_out_options() {
 
     println!("some_number {:?} some_string {:?}", some_number, some_string);
     println!("absent_number {:?}", absent_number);
+
+    let x: i8 = 5;
+    let y: Option<i8> = Some(5);
+
+    // We can't do this because the option doesn't allow addition
+    // let sum = x + y;
+    if y != None {
+        let res = y.unwrap_or(0);
+        println!("the sum is {}", x + res);
+    }
 }
