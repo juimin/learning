@@ -25,6 +25,7 @@ pub fn main() {
     try_out_options();
     run_value_in_cents();
     run_state_value_stuff();
+    use_plus_one();
 }
 
 // Sample enum
@@ -274,3 +275,28 @@ fn run_state_value_stuff() {
     println!("Value of coin is {}", state_value_in_cents(d));
     println!("Value of coin is {}", state_value_in_cents(q2));
 }
+
+// Now use the match statement to modify something inside an Option
+fn plus_one(x: Option<i32>) -> Option<i32> {
+    // Here we get x, which is an optional
+    // If none, we return none obviously
+
+    // If we get a Some of type T, in this case i32, we use that value as i
+    // and return another optional with that value
+    match x {
+        None => None,
+        Some(i) => Some(i + 1),
+    }
+}
+
+fn use_plus_one() {
+    // We define some optional holding an i32 (default)
+    let five = Some(5);
+    // Let six be the +1 variant
+    let six = plus_one(five);
+    let none = plus_one(None);
+
+    println!("six is equal to {:?}", six);
+    println!("none is equal to {:?}", none);
+}
+
