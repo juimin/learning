@@ -26,6 +26,8 @@ pub fn main() {
     run_value_in_cents();
     run_state_value_stuff();
     use_plus_one();
+    use_plus_two();
+    the_other_way();
 }
 
 // Sample enum
@@ -285,6 +287,8 @@ fn plus_one(x: Option<i32>) -> Option<i32> {
     // and return another optional with that value
     match x {
         None => None,
+        // Here the i just automatically binds to the value and I guess it knows how
+        // to do this because we have an enum as the arm key inside a match statement
         Some(i) => Some(i + 1),
     }
 }
@@ -300,3 +304,44 @@ fn use_plus_one() {
     println!("none is equal to {:?}", none);
 }
 
+
+// BE CAREFUL, Match statements are exhaustive in that you have to cover every option
+// in whatever the enum is
+
+// This is broken and will not compile. why?
+fn plus_two(x: Option<i32>) -> Option<i32> {
+    // The option value of None is not covered so this won't compile
+    // Rust makes us check all the possible options
+    
+    // match x {
+    //     Some(i) => Some(i + 2),
+    // }
+
+    // Either we list out the possible options or use the _
+    match x {
+        _ => None,
+    }
+}
+
+fn use_plus_two() {
+    // We define some optional holding an i32 (default)
+    let five = Some(5);
+    // Let six be the +1 variant
+    let sev = plus_two(five);
+    let none = plus_two(None);
+
+    println!("six is equal to {:?}", sev);
+    println!("none is equal to {:?}", none);
+}
+
+fn the_other_way() {
+    let some_u8_value = 0u8;
+    match some_u8_value {
+        1 => println!("one"),
+        3 => println!("three"),
+        5 => println!("five"),
+        7 => println!("seven"),
+        // () is the unit value so this makes it do nothing?
+        _ => (),
+    }
+}
