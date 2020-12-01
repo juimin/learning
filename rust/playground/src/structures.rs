@@ -78,12 +78,20 @@ fn update_syntax() {
 
 // TUPLE STRUCTS ( I guess like namedtuples)
 
+#[derive(PartialEq)]
 struct Color(i32, i32, i32);
+#[derive(PartialEq)]
 struct Point(i32, i32, i32);
 
 fn tuple_struct_ex() {
     let black = Color(0, 0, 0);
     let origin = Point(0, 0, 0);
+    if black == Color(0,0,0) {
+        println!("is zero");
+    }
+    if origin == Point(1,1,1) {
+        println!("At the 111")
+    }
 }
 
 pub fn main() {
