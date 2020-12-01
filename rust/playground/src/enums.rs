@@ -16,6 +16,11 @@ if let
     - syntactic sugar?
 */
 
+pub fn main() {
+    println!("\nEnumerations and all that Jazz\n");
+    instantiate_example();
+}
+
 // Sample enum
 #[derive(PartialEq)]
 enum IpAddrKind {
@@ -38,7 +43,3 @@ fn instantiate_example() {
     println!("Six: {} - Four: {}", printip(six), printip(four));
 }
 
-pub fn main() {
-    println!("\nEnumerations and all that Jazz\n");
-    instantiate_example();
-}
