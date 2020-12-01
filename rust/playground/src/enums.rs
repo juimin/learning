@@ -21,6 +21,7 @@ pub fn main() {
     instantiate_example();
     better_ipaddr_enum();
     mixed_enum();
+    use_message();
 }
 
 // Sample enum
@@ -86,4 +87,63 @@ fn mixed_enum() {
 
     // Can we print these?
     println!("These are the better mixed ipaddr enums: {:?} {:?}", home, loopback);
+}
+
+// STANDARD LIBRARY IP ADDR DEFINITION ( in case you were curious )
+/*
+struct Ipv4Addr {
+    // --snip--
+}
+
+struct Ipv6Addr {
+    // --snip--
+}
+
+enum IpAddr {
+    V4(Ipv4Addr),
+    V6(Ipv6Addr),
+}
+*/
+
+#[derive(PartialEq)]
+enum Message {
+    // This is just a kind of message
+    Quit,
+    // This is an anonymous struct
+    Move { x: i32, y: i32 },
+    Write(String),
+    ChangeColor(i32, i32, i32),
+}
+
+// The above is roughly equivalent to making a bunch of independent structs
+/*
+struct QuitMessage; // unit struct
+struct MoveMessage {
+    x: i32,
+    y: i32,
+}
+struct WriteMessage(String); // tuple struct
+struct ChangeColorMessage(i32, i32, i32); // tuple struct
+*/
+
+impl Message {
+    fn call(&self) {
+        // method body would be defined here
+        if *self == Message::Quit {
+            println!("Quitting");
+        } else {
+            println!("Not a quit message");
+        }
+    }
+}
+
+fn use_message() {
+    let m = Message::Write(String::from("hello"));
+    m.call();
+    let m = Message::Quit;
+    m.call();
+    let m = Message::ChangeColor(10,10,10);
+    m.call();
+    let m = Message::Move {x: 2, y: 213};
+    m.call();
 }
