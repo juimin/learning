@@ -28,6 +28,7 @@ pub fn main() {
     use_plus_one();
     use_plus_two();
     the_other_way();
+    if_let_thing();
 }
 
 // Sample enum
@@ -344,4 +345,51 @@ fn the_other_way() {
         // () is the unit value so this makes it do nothing?
         _ => (),
     }
+}
+
+
+// Whopper Concise control flow with if let
+
+// Note that doing this loses the exhausting checking that match provides/requires
+// But there's less code and you can be more concise
+fn if_let_thing() {
+    // This is an interesting visage
+    let some_u8_value = Some(3u8);
+    match some_u8_value {
+        Some(3) => println!("three"),
+        _ => (),
+    }
+
+    // This is roughly equivalent to
+    // Interally it evaluates the Somes for what their values really are
+    if let Some(3) = some_u8_value {
+        println!("this is a super three");
+    }
+
+    // This is expected to do nothing
+    let mystery = None;
+    if let Some(3) = mystery {
+        println!("this is a super three");
+    }
+
+    // Variant with else
+    let mut count = 0;
+    let coin = StateCoin::Quarter(UsState::Alabama);
+    match coin {
+        StateCoin::Quarter(state) => println!("State: {:?}!", state),
+        _ => count +=1,
+    }
+    // We expect a 0 here because the coin was a state quarter
+    println!("The count is {}", count);
+
+    let c = StateCoin::Dime;
+    // We can do the same thing like so
+    if let StateCoin::Quarter(state) = c {
+        println!("The state from if let is {:?}", state);
+    } else {
+        count += 1;
+    }
+
+    // We expect this to be 1 because c is not a state quarter
+    println!("The count is {}", count);
 }
