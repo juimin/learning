@@ -22,6 +22,7 @@ pub fn main() {
     better_ipaddr_enum();
     mixed_enum();
     use_message();
+    try_out_options();
 }
 
 // Sample enum
@@ -146,4 +147,37 @@ fn use_message() {
     m.call();
     let m = Message::Move {x: 2, y: 213};
     m.call();
+}
+
+// The option enum!!!!!!!! We're finally here
+/*
+Nulls lmao
+
+Rust does not have nulls, but instead has Option, which is an enum used to encode the concept
+of a value being present or absent
+
+As defined in the standard library (it can take any type)
+enum Option<T> {
+    Some(T),
+    None,
+}
+
+Option is included in the prelude so you don't need to bring it into scope explicitly
+Some and None can be used without the Option:: prefix
+    - This is useful because Python is also using None and it won't be as hard to change
+    - Note the generic <T>
+*/
+
+fn try_out_options() {
+
+    // This is valid because the type used is an integer (default u32)
+    let some_number = Some(5);
+    let some_string = Some("a string");
+
+    // This defines a variable with a specified type associated with the None value
+    // We know with the annotation that the number will be None or a signed 32 bit integer
+    let absent_number: Option<i32> = None;
+
+    println!("some_number {:?} some_string {:?}", some_number, some_string);
+    println!("absent_number {:?}", absent_number);
 }
