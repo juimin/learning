@@ -190,4 +190,6 @@ fn try_out_options() {
         let res = y.unwrap_or(0);
         println!("the sum is {}", x + res);
     }
+
+    // In general, rust makes you be very deliberate about handling variables.
 }
