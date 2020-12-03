@@ -29,7 +29,7 @@ pub fn main() {
                 let n = line.trim().parse().expect("This should be a number");
                 let other = target_sum - n;
                 if seen.contains(&other) {
-                    println!("Day 1 Target Product: {}", n * other);
+                    println!("Day 1 Part 1: {}", n * other);
                 }
                 seen.insert(n);
             }
@@ -51,7 +51,7 @@ pub fn main() {
                         if seen.contains(&n3) {
                             if n3 != n2 && n != n3 {
                                 // We have found the triple
-                                println!("Day 1 Triple Product: {}", n * n2 * n3);
+                                println!("Day 1 Part 2: {}", n * n2 * n3);
                                 return
                             }
                         }
