@@ -20,16 +20,14 @@ fn file_contents_as_string(filename: &str) -> String {
     }
 }
 
-fn count_trees(file_contents: &str) {
-    const LAT_STEP: i32 = 3;
-    const LONG_STEP: i32 = 1;
+fn count_trees(file_contents: &str, lat_step: i32, long_step: i32) -> i32 {
     let mut tree_count = 0;
     let mut lat_pos = 0;
     let mut long_pos = 0;
     for line in file_contents.lines() {
-        if long_pos == LONG_STEP {
+        if long_pos == long_step {
             // Move laterally
-            lat_pos = (lat_pos + LAT_STEP) % (line.len() as i32);
+            lat_pos = (lat_pos + lat_step) % (line.len() as i32);
             // Check the new spot for a tree
             if line.chars().nth(lat_pos as usize).unwrap() == '#' {
                 tree_count += 1
@@ -40,10 +38,19 @@ fn count_trees(file_contents: &str) {
         long_pos += 1;
     }
 
-    println!("Day 3 Part 1: Tree count is {}", tree_count);
+    return tree_count;
 }
 
 pub fn main() {
     let file_contents = file_contents_as_string("./data/day3.txt");
-    count_trees(&file_contents);
+    let part1 = count_trees(&file_contents, 3, 1);
+    println!("Day 3 Part 1: Tree count is {}", part1);
+    // Part 2
+    let trials = [(1,1), (3, 1), (5, 1), (7, 1), (1,2)];
+    let mut part2_product: i64 = 1;
+    for t in trials.iter() {
+        let cnt = count_trees(&file_contents, t.0, t.1);
+        part2_product = part2_product * (cnt as i64);
+    }
+    println!("Day 3 Part 2: Tree count is {}", part2_product);
 }
