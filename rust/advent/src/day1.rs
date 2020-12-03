@@ -52,6 +52,7 @@ pub fn main() {
                             if n3 != n2 && n != n3 {
                                 // We have found the triple
                                 println!("Day 1 Triple Product: {}", n * n2 * n3);
+                                return
                             }
                         }
                     }
