@@ -32,61 +32,33 @@ fn check_categories_valid(categories: &HashSet<&str>) -> bool {
     intersection.len() == req_fields.len()
 }
 
+fn const_len_val_in_range(val: &str, low_inc: i32, high_inc: i32, len: usize) -> bool {
+    if val.len() != len {
+        return false
+    }
+    return val_in_range(val, low_inc, high_inc)
+}
+
+fn val_in_range(val: &str, low_inc: i32, high_inc: i32) -> bool {
+    match val.trim().parse::<i32>() {
+        Ok(n) => {
+            n >= low_inc && n <= high_inc
+        },
+        Err(_) => false,
+    }
+}
+
 // Check each field is valid input
 fn check_field_valid(cat: &str, val: &str) -> bool {
     match cat {
-        "byr" => {
-            if val.len() != 4 {
-                return false
-            }
-            match val.trim().parse::<i32>() {
-                Ok(n) => {
-                    n >= 1920 && n <= 2002
-                },
-                Err(_) => false,
-            }
-        },
-        "iyr" => {
-            if val.len() != 4 {
-                return false
-            }
-            match val.trim().parse::<i32>() {
-                Ok(n) => {
-                    n >= 2010 && n <= 2020
-                },
-                Err(_) => false,
-            }
-        },
-        "eyr" => {
-            if val.len() != 4 {
-                return false
-            }
-            match val.trim().parse::<i32>() {
-                Ok(n) => {
-                    n >= 2020 && n <= 2030
-                },
-                Err(_) => false,
-            }
-        },
+        "byr" => const_len_val_in_range(val, 1920, 2002, 4),
+        "iyr" => const_len_val_in_range(val, 2010, 2020, 4),
+        "eyr" => const_len_val_in_range(val, 2020, 2030, 4),
         "hgt" => {
             let len = val.len();
             match &val[len-2..] {
-                "in" => {
-                    match val[..len-2].trim().parse::<i32>() {
-                        Ok(n) => {
-                            n >= 59 && n <= 76
-                        },
-                        Err(_) => false,
-                    }
-                },
-                "cm" => {
-                    match val[..len-2].parse::<i32>() {
-                        Ok(n) => {
-                            n >= 150 && n <= 193
-                        },
-                        Err(_) => false,
-                    }
-                },
+                "in" => val_in_range(&val[..len-2], 59, 76),
+                "cm" => val_in_range(&val[..len-2], 150, 193),
                 _ => false
             }
         },
