@@ -2,30 +2,27 @@ use crate::util;
 
 // Parses the 7 letter code
 fn get_row_number(input: &str) -> i32 {
-    binary_search(128, 'B', input)
+    bin_conv('B', input)
 }
 
 
 fn get_col_number(input: &str) -> i32 {
-    binary_search(8, 'R', input)
+    bin_conv('R', input)
 }
 
 
-fn binary_search(size: i32, high: char, input: &str) -> i32 {
-    let mut min = 0;
-    let mut max = size;
-    let mut mid = (max + min) / 2;
+fn bin_conv(high: char, input: &str) -> i32 {
+    let mut val = 0;
 
+    // bleh signed and unsigned ints
     for letter in input.chars() {
         if letter == high {
-            min = mid;
-            mid = (max + min) / 2;
-        } else {
-            max = mid;
-            mid = (max + min) / 2;
+            val |= 1
         }
+        val <<= 1;
     }
-    return mid
+    val >>= 1;
+    return val
 }
 
 
@@ -49,6 +46,7 @@ pub fn run() {
             max_seat_id = seat_id;
         }
         // Add to the counter
+        println!();
         counter[(row as usize)] ^= col + 1;
     }
     println!("Day 5 Part 1: {}", max_seat_id);
