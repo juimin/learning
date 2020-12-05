@@ -36,7 +36,6 @@ pub fn run() {
             max_seat_id = seat_id;
         }
         // Add to the counter
-        println!();
         counter[(row as usize)] ^= col + 1;
     }
     println!("Day 5 Part 1: {}", max_seat_id);
