@@ -1,24 +1,4 @@
-use std::fs::File;
-use std::io::prelude::*;
-use std::path::Path;
-
-fn file_contents_as_string(filename: &str) -> String {
-    let path = Path::new(filename);
-    let display = path.display();
-
-    // Open the path in read-only mode, returns `io::Result<File>`
-    let mut file = match File::open(&path) {
-        Err(why) => panic!("couldn't open {}: {}", display, why),
-        Ok(file) => file,
-    };
-
-    // Read the file contents into a string, returns `io::Result<usize>`
-    let mut file_contents = String::new();
-    match file.read_to_string(&mut file_contents) {
-        Err(why) => panic!("couldn't read {}: {}", display, why),
-        Ok(_) => return file_contents
-    }
-}
+use crate::util;
 
 fn count_trees(file_contents: &str, lat_step: i32, long_step: i32) -> i32 {
     let mut tree_count = 0;
@@ -42,7 +22,7 @@ fn count_trees(file_contents: &str, lat_step: i32, long_step: i32) -> i32 {
 }
 
 pub fn main() {
-    let file_contents = file_contents_as_string("./data/day3.txt");
+    let file_contents = util::file_contents_as_string("./data/day3.txt");
     let part1 = count_trees(&file_contents, 3, 1);
     println!("Day 3 Part 1: Tree count is {}", part1);
     // Part 2

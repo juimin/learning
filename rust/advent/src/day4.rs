@@ -1,29 +1,6 @@
-use std::fs::File;
-use std::io::prelude::*;
-use std::path::Path;
+use crate::util;
 use std::collections::HashSet;
 
-
-
-
-
-fn file_contents_as_string(filename: &str) -> String {
-    let path = Path::new(filename);
-    let display = path.display();
-
-    // Open the path in read-only mode, returns `io::Result<File>`
-    let mut file = match File::open(&path) {
-        Err(why) => panic!("couldn't open {}: {}", display, why),
-        Ok(file) => file,
-    };
-
-    // Read the file contents into a string, returns `io::Result<usize>`
-    let mut file_contents = String::new();
-    match file.read_to_string(&mut file_contents) {
-        Err(why) => panic!("couldn't read {}: {}", display, why),
-        Ok(_) => return file_contents
-    }
-}
 
 fn check_categories_valid(categories: &HashSet<&str>) -> bool {
     let req_fields: HashSet<&str> = ["byr","iyr","eyr","hgt","hcl","ecl","pid"].iter().cloned().collect();
@@ -146,7 +123,7 @@ fn validate_passports(fc: &str) -> (i32, i32) {
 }
 
 pub fn main() {
-    let fc = file_contents_as_string("./data/day4.txt");
+    let fc = util::file_contents_as_string("./data/day4.txt");
     let (part1, part2) = validate_passports(&fc);
     println!("Day 4 Part 1: {}", part1);
     println!("Day 4 Part 2: {}", part2);

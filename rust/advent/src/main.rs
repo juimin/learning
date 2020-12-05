@@ -1,3 +1,7 @@
+// Include library modules
+mod util;
+
+// Add modules for each day
 mod day1;
 mod day2;
 mod day3;
