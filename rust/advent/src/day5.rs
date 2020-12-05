@@ -42,14 +42,16 @@ pub fn run() {
 
     let mut in_middle = false;
     for (row, value) in counter.iter().enumerate() {
-        if !in_middle && *value == 0 {
-            in_middle = true;
-        }
-        // The first one we find should be the correct one
-        if in_middle && *value != 0 {
-            let my_seat_id = (8 * (row as i32)) + value - 1;
-            println!("Day 5 Part 2: {}", my_seat_id);
-            return
+        if in_middle {
+            if * value != 0 {
+                let my_seat_id = (8 * (row as i32)) + value - 1;
+                println!("Day 5 Part 2: {}", my_seat_id);
+                return
+            }
+        } else {
+            if *value < xor_sum {
+                in_middle = true;
+            }
         }
     }
 }
