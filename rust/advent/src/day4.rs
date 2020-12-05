@@ -122,7 +122,7 @@ fn validate_passports(fc: &str) -> (i32, i32) {
     return (valid_passports_1, valid_passports_2)
 }
 
-pub fn main() {
+pub fn run() {
     let fc = util::file_contents_as_string("./data/day4.txt");
     let (part1, part2) = validate_passports(&fc);
     println!("Day 4 Part 1: {}", part1);

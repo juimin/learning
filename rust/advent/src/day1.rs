@@ -3,7 +3,7 @@ use std::vec::Vec;
 
 use crate::util;
 
-pub fn main() {
+pub fn run() {
     let file_contents = util::file_contents_as_string("./data/day1.txt");
     let target_sum = 2020;
     let mut seen: HashSet<i32> = HashSet::new();

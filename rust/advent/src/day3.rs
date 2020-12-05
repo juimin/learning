@@ -21,7 +21,7 @@ fn count_trees(file_contents: &str, lat_step: i32, long_step: i32) -> i32 {
     return tree_count;
 }
 
-pub fn main() {
+pub fn run() {
     let file_contents = util::file_contents_as_string("./data/day3.txt");
     let part1 = count_trees(&file_contents, 3, 1);
     println!("Day 3 Part 1: Tree count is {}", part1);

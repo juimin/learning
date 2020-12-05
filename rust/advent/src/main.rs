@@ -10,9 +10,9 @@ mod day5;
 
 fn main() {
     println!("Advent of Code!");
-    day1::main();
-    day2::main();
-    day3::main();
-    day4::main();
-    day5::main();
+    day1::run();
+    day2::run();
+    day3::run();
+    day4::run();
+    day5::run();
 }

@@ -29,7 +29,7 @@ fn binary_search(size: i32, high: char, input: &str) -> i32 {
 }
 
 
-pub fn main() {
+pub fn run() {
     let fc = util::file_contents_as_string("./data/day5.txt");
     let mut max_seat_id = 0;
     // Compute colum xor sum

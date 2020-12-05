@@ -43,7 +43,7 @@ fn parse_contents(file_contents: &str) {
     println!("Day 2 Part 2: Number of valid passwords {}", valid_total_part_2);
 }
 
-pub fn main() {
+pub fn run() {
     let file_contents = util::file_contents_as_string("./data/day2.txt");
     parse_contents(&file_contents);
 }
