@@ -53,7 +53,6 @@ pub fn main() {
     }
     println!("Day 5 Part 1: {}", max_seat_id);
 
-    println!("End state: {:?}", counter);
     let mut in_middle = false;
     for (row, value) in counter.iter().enumerate() {
         if !in_middle && *value == 0 {
