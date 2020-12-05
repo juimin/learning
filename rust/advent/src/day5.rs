@@ -1,15 +1,5 @@
 use crate::util;
 
-// Parses the 7 letter code
-fn get_row_number(input: &str) -> i32 {
-    bin_conv('B', input)
-}
-
-
-fn get_col_number(input: &str) -> i32 {
-    bin_conv('R', input)
-}
-
 
 fn bin_conv(high: char, input: &str) -> i32 {
     let mut val = 0;
@@ -39,8 +29,8 @@ pub fn run() {
 
     for line in fc.lines() {
         let len = line.len();
-        let row = get_row_number(&line[..7]);
-        let col = get_col_number(&line[7..len]);
+        let row = bin_conv('B', &line[..7]);
+        let col = bin_conv('R', &line[7..len]);
         let seat_id = (row * 8) + col;
         if seat_id > max_seat_id {
             max_seat_id = seat_id;
