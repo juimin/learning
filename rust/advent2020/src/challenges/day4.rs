@@ -77,17 +77,16 @@ fn check_field_valid(cat: &str, val: &str) -> bool {
 
 
 pub fn run(fc: &str) -> (i64, i64) {
-    let mut valid_passports_1 = 0;
-    let mut valid_passports_2 = 0;
+    let mut results: (i64, i64) = (0,0);
     let mut part1_set: HashSet<&str> = HashSet::new();
     let mut part2_set: HashSet<&str> = HashSet::new();
     for line in fc.lines() {
         if line == "" {
             if check_categories_valid(&part1_set) {
-                valid_passports_1 += 1
+                results.0 += 1
             }
             if check_categories_valid(&part2_set) {
-                valid_passports_2 += 1
+                results.1 += 1
             }
             // Finished this passport so reset the sets
             part1_set.clear();
@@ -110,13 +109,13 @@ pub fn run(fc: &str) -> (i64, i64) {
     // Depending on the new line at the end of the file we might have to check
     if part1_set.len() > 0 {
         if check_categories_valid(&part1_set) {
-            valid_passports_1 += 1
+            results.0 += 1
         }
     }
     if part2_set.len() > 0 {
         if check_categories_valid(&part2_set) {
-            valid_passports_2 += 1
+            results.1 += 1
         }
     }
-    (valid_passports_1, valid_passports_2)
+   results
 }

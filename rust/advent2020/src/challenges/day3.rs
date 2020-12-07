@@ -1,5 +1,5 @@
 fn count_trees(file_contents: &str, lat_step: i32, long_step: i32) -> i64 {
-    let mut tree_count = 0;
+    let mut tree_count: i64 = 0;
     let mut lat_pos = 0;
     let mut long_pos = 0;
     for line in file_contents.lines() {
@@ -15,7 +15,7 @@ fn count_trees(file_contents: &str, lat_step: i32, long_step: i32) -> i64 {
         }
         long_pos += 1;
     }
-    tree_count as i64
+    tree_count
 }
 
 pub fn run(file: &str) -> (i64, i64) {
@@ -25,7 +25,7 @@ pub fn run(file: &str) -> (i64, i64) {
     let mut part2_product: i64 = 1;
     for t in trials.iter() {
         let cnt = count_trees(file, t.0, t.1);
-        part2_product = part2_product * (cnt as i64);
+        part2_product = part2_product * cnt;
     }
     (part1, part2_product)
 }
