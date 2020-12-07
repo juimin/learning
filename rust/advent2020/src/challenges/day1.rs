@@ -1,18 +1,21 @@
 use std::collections::HashSet;
-use std::vec::Vec;
+use std::fs::File;
+use std::io::{BufReader, Lines};
 
-pub fn run(file: &str) -> (i64,i64) {
+pub fn run(lines: Lines<BufReader<File>>) -> (i64,i64) {
     let target_sum = 2020;
     let mut seen: HashSet<i32> = HashSet::new();
     let mut results: (i64, i64) = (0, 0);
-    for line in file.lines() {
-        // Check if diff is in the set
-        let n = line.trim().parse().expect("This should be a number");
-        let other = target_sum - n;
-        if seen.contains(&other) {
-            results.0 = (n * other) as i64;
+    for line in lines {
+        if let Ok(l) = line {
+            // Check if diff is in the set
+            let n = l.trim().parse().expect("This should be a number");
+            let other = target_sum - n;
+            if seen.contains(&other) {
+                results.0 = (n * other) as i64;
+            }
+            seen.insert(n);
         }
-        seen.insert(n);
     }
 
     let mut new_targets = Vec::new();

@@ -1,3 +1,6 @@
+use std::fs::File;
+use std::io::{BufReader, Lines};
+
 fn bin_conv(high: char, input: &str) -> i32 {
     let mut val = 0;
 
@@ -13,7 +16,7 @@ fn bin_conv(high: char, input: &str) -> i32 {
 }
 
 
-pub fn run(file: &str) -> (i64, i64) {
+pub fn run(lines: Lines<BufReader<File>>) -> (i64, i64) {
     let mut results: (i64, i64) = (0,0);
     let mut max_seat_id = 0;
     // Compute colum xor sum
@@ -24,16 +27,18 @@ pub fn run(file: &str) -> (i64, i64) {
 
     let mut counter: [i32; 128] = [xor_sum; 128];
 
-    for line in file.lines() {
-        let len = line.len();
-        let row = bin_conv('B', &line[..7]);
-        let col = bin_conv('R', &line[7..len]);
-        let seat_id = (row * 8) + col;
-        if seat_id > max_seat_id {
-            max_seat_id = seat_id;
+    for line in lines {
+        if let Ok(l) = line {
+            let len = l.len();
+            let row = bin_conv('B', &l[..7]);
+            let col = bin_conv('R', &l[7..len]);
+            let seat_id = (row * 8) + col;
+            if seat_id > max_seat_id {
+                max_seat_id = seat_id;
+            }
+            // Add to the counter
+            counter[(row as usize)] ^= col + 1;
         }
-        // Add to the counter
-        counter[(row as usize)] ^= col + 1;
     }
 
     results.0 = max_seat_id as i64;
