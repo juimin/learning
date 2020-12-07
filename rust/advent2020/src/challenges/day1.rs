@@ -2,7 +2,7 @@ use std::collections::HashSet;
 use std::fs::File;
 use std::io::{BufReader, Lines};
 
-pub fn run(lines: Lines<BufReader<File>>) -> (i64,i64) {
+pub fn run(lines: Lines<BufReader<File>>) -> (i64, i64) {
     let target_sum = 2020;
     let mut seen: HashSet<i32> = HashSet::new();
     let mut results: (i64, i64) = (0, 0);

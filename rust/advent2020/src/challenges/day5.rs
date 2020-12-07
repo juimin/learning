@@ -12,12 +12,11 @@ fn bin_conv(high: char, input: &str) -> i32 {
         val <<= 1;
     }
     val >>= 1;
-    return val
+    return val;
 }
 
-
 pub fn run(lines: Lines<BufReader<File>>) -> (i64, i64) {
-    let mut results: (i64, i64) = (0,0);
+    let mut results: (i64, i64) = (0, 0);
     let mut max_seat_id = 0;
     // Compute colum xor sum
     let mut xor_sum = 0;
@@ -48,7 +47,7 @@ pub fn run(lines: Lines<BufReader<File>>) -> (i64, i64) {
         if in_middle {
             if *value != 0 {
                 results.1 = ((8 * (row as i32)) + value - 1) as i64;
-                return results
+                return results;
             }
         } else {
             if *value < xor_sum {
