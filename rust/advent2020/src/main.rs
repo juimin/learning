@@ -36,7 +36,7 @@ fn main() {
 
     if file.len() == 0 {
         // Expect the data directory in the same dir
-        file.push_str(&format!("./data/day{}.txt", day_str))
+        file.push_str(&format!("./advent2020inputs/day{}.txt", day_str))
     }
 
     challenges::run(day, &file);
