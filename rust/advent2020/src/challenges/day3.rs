@@ -1,6 +1,4 @@
-use adventlib;
-
-fn count_trees(file_contents: &str, lat_step: i32, long_step: i32) -> i32 {
+fn count_trees(file_contents: &str, lat_step: i32, long_step: i32) -> i64 {
     let mut tree_count = 0;
     let mut lat_pos = 0;
     let mut long_pos = 0;
@@ -17,20 +15,17 @@ fn count_trees(file_contents: &str, lat_step: i32, long_step: i32) -> i32 {
         }
         long_pos += 1;
     }
-
-    return tree_count;
+    tree_count as i64
 }
 
-pub fn run(file: &str) {
-    let file_contents = adventlib::file_contents_as_string(file);
-    let part1 = count_trees(&file_contents, 3, 1);
-    println!("Day 3 Part 1: Tree count is {}", part1);
+pub fn run(file: &str) -> (i64, i64) {
+    let part1 = count_trees(file, 3, 1);
     // Part 2
     let trials = [(1,1), (3, 1), (5, 1), (7, 1), (1,2)];
     let mut part2_product: i64 = 1;
     for t in trials.iter() {
-        let cnt = count_trees(&file_contents, t.0, t.1);
+        let cnt = count_trees(file, t.0, t.1);
         part2_product = part2_product * (cnt as i64);
     }
-    println!("Day 3 Part 2: Tree count is {}", part2_product);
+    (part1, part2_product)
 }

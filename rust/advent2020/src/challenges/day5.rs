@@ -1,6 +1,3 @@
-use adventlib;
-
-
 fn bin_conv(high: char, input: &str) -> i32 {
     let mut val = 0;
 
@@ -16,8 +13,8 @@ fn bin_conv(high: char, input: &str) -> i32 {
 }
 
 
-pub fn run(file: &str) {
-    let fc = adventlib::file_contents_as_string(file);
+pub fn run(file: &str) -> (i64, i64) {
+    let mut results: (i64, i64) = (0,0);
     let mut max_seat_id = 0;
     // Compute colum xor sum
     let mut xor_sum = 0;
@@ -27,7 +24,7 @@ pub fn run(file: &str) {
 
     let mut counter: [i32; 128] = [xor_sum; 128];
 
-    for line in fc.lines() {
+    for line in file.lines() {
         let len = line.len();
         let row = bin_conv('B', &line[..7]);
         let col = bin_conv('R', &line[7..len]);
@@ -38,15 +35,15 @@ pub fn run(file: &str) {
         // Add to the counter
         counter[(row as usize)] ^= col + 1;
     }
-    println!("Day 5 Part 1: {}", max_seat_id);
+
+    results.0 = max_seat_id as i64;
 
     let mut in_middle = false;
     for (row, value) in counter.iter().enumerate() {
         if in_middle {
             if *value != 0 {
-                let my_seat_id = (8 * (row as i32)) + value - 1;
-                println!("Day 5 Part 2: {}", my_seat_id);
-                return
+                results.1 = ((8 * (row as i32)) + value - 1) as i64;
+                return results
             }
         } else {
             if *value < xor_sum {
@@ -54,4 +51,5 @@ pub fn run(file: &str) {
             }
         }
     }
+    results
 }

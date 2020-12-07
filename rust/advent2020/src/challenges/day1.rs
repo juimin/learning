@@ -1,18 +1,16 @@
 use std::collections::HashSet;
 use std::vec::Vec;
 
-use adventlib;
-
-pub fn run(file: &str) {
-    let file_contents = adventlib::file_contents_as_string(file);
+pub fn run(file: &str) -> (i64,i64) {
     let target_sum = 2020;
     let mut seen: HashSet<i32> = HashSet::new();
-    for line in file_contents.split_whitespace() {
+    let mut results: (i64, i64) = (0, 0);
+    for line in file.lines() {
         // Check if diff is in the set
         let n = line.trim().parse().expect("This should be a number");
         let other = target_sum - n;
         if seen.contains(&other) {
-            println!("Day 1 Part 1: {}", n * other);
+            results.0 = (n * other) as i64;
         }
         seen.insert(n);
     }
@@ -34,11 +32,12 @@ pub fn run(file: &str) {
                 if seen.contains(&n3) {
                     if n3 != n2 && n != n3 {
                         // We have found the triple
-                        println!("Day 1 Part 2: {}", n * n2 * n3);
-                        return
+                        results.1 = (n * n2 * n3) as i64;
+                        return results;
                     }
                 }
             }
         }
     }
+    results
 }

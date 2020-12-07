@@ -1,4 +1,3 @@
-use adventlib;
 use std::collections::HashSet;
 
 
@@ -13,7 +12,7 @@ fn const_len_val_in_range(val: &str, low_inc: i32, high_inc: i32, len: usize) ->
     if val.len() != len {
         return false
     }
-    return val_in_range(val, low_inc, high_inc)
+    val_in_range(val, low_inc, high_inc)
 }
 
 fn val_in_range(val: &str, low_inc: i32, high_inc: i32) -> bool {
@@ -77,7 +76,7 @@ fn check_field_valid(cat: &str, val: &str) -> bool {
 }
 
 
-fn validate_passports(fc: &str) -> (i32, i32) {
+pub fn run(fc: &str) -> (i64, i64) {
     let mut valid_passports_1 = 0;
     let mut valid_passports_2 = 0;
     let mut part1_set: HashSet<&str> = HashSet::new();
@@ -119,12 +118,5 @@ fn validate_passports(fc: &str) -> (i32, i32) {
             valid_passports_2 += 1
         }
     }
-    return (valid_passports_1, valid_passports_2)
-}
-
-pub fn run(file: &str) {
-    let fc = adventlib::file_contents_as_string(file);
-    let (part1, part2) = validate_passports(&fc);
-    println!("Day 4 Part 1: {}", part1);
-    println!("Day 4 Part 2: {}", part2);
+    (valid_passports_1, valid_passports_2)
 }

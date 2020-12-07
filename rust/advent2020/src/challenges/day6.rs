@@ -1,5 +1,3 @@
-use adventlib;
-
 use std::collections::HashSet;
 
 fn get_part2_group_count(arr: [i32; 26], size: i32) -> i32 {
@@ -12,7 +10,7 @@ fn get_part2_group_count(arr: [i32; 26], size: i32) -> i32 {
     total
 }
 
-pub fn run(file: &str) {
+pub fn run(file: &str) -> (i64, i64) {
     let fc = adventlib::file_contents_as_string(file);
 
     let mut part1_sum = 0;
@@ -49,7 +47,5 @@ pub fn run(file: &str) {
     if part2_arr.len() != 0 {
         part2_sum += get_part2_group_count(part2_arr, group_size);
     }
-
-    println!("Day 6 Part 1: {}", part1_sum);
-    println!("Day 6 Part 2: {}", part2_sum);
+    (part1_sum as i64, part2_sum as i64)
 }

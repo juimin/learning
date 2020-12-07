@@ -1,6 +1,4 @@
-use adventlib;
-
-fn parse_contents(file_contents: &str) {
+pub fn run(file_contents: &str) -> (i64,i64) {
     // Get the valid password count
     let mut valid_total = 0;
     let mut valid_total_part_2 = 0;
@@ -39,11 +37,5 @@ fn parse_contents(file_contents: &str) {
             valid_total_part_2 += 1;
         }
     }
-    println!("Day 2 Part 1: Number of valid passwords {}", valid_total);
-    println!("Day 2 Part 2: Number of valid passwords {}", valid_total_part_2);
-}
-
-pub fn run(file: &str) {
-    let file_contents = adventlib::file_contents_as_string(file);
-    parse_contents(&file_contents);
+    (valid_total, valid_total_part_2)
 }
