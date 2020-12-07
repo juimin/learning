@@ -9,7 +9,7 @@ pub fn run(lines: Lines<BufReader<File>>) -> (i64, i64) {
     let mut trial_coordinates: [(i32, i32); TRIAL_COUNT] = [(0, 0); TRIAL_COUNT];
     for line in lines {
         if let Ok(l) = line {
-            for (trial, (long_step, lat_step)) in TRIALS.iter().enumerate() {
+            for (trial, (lat_step, long_step)) in TRIALS.iter().enumerate() {
                 if trial_coordinates[trial].0 == *long_step {
                     // Move laterally
                     trial_coordinates[trial].1 =
