@@ -11,15 +11,13 @@ fn get_part2_group_count(arr: [i32; 26], size: i32) -> i32 {
 }
 
 pub fn run(file: &str) -> (i64, i64) {
-    let fc = adventlib::file_contents_as_string(file);
-
     let mut part1_sum = 0;
     let mut part2_sum = 0;
     let mut hs: HashSet<char> = HashSet::new();
     let mut part2_arr: [i32; 26] = [0; 26];
     let mut group_size: i32 = 0;
 
-    for line in fc.lines() {
+    for line in file.lines() {
         if line.len() == 0 {
             // This is a break so we can compute
             part1_sum += hs.len();
