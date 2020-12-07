@@ -1,7 +1,7 @@
-use std::collections::{HashSet, HashMap};
-use std::vec::Vec;
+use std::collections::{HashMap, HashSet};
 use std::fs::File;
 use std::io::{BufReader, Lines};
+use std::vec::Vec;
 
 fn get_bag_color(bag_str: &str) -> &str {
     bag_str.split("bag").next().unwrap().trim()
@@ -36,7 +36,6 @@ pub fn run(lines: Lines<BufReader<File>>) -> (i64, i64) {
             }
         }
     }
-    
     let mut seen: HashSet<String> = HashSet::new();
     let mut stack: Vec<&str> = Vec::new();
     stack.push(&"shiny gold");
