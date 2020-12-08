@@ -24,11 +24,25 @@ fn get_count_and_clean(bag_str: &str) -> (i32, &str) {
     )
 }
 
+fn count_bags_in(bag: &str, map: &HashMap<String, Vec<(i32, String)>>) -> i64 {
+    match map.get(bag) {
+        Some(children) => {
+            let mut total = 0;
+            for (count, child_bag) in children {
+                total += (*count as i64) * count_bags_in(&child_bag, map);
+            }
+            total + 1
+        }
+        None => 1
+    }
+}
+
 // Assumes valid input
 pub fn run(lines: Lines<BufReader<File>>) -> (i64, i64) {
     let mut result = (0, 0);
 
     let mut part1_map: HashMap<String, HashSet<String>> = HashMap::new();
+    let mut part2_map: HashMap<String, Vec<(i32, String)>> = HashMap::new();
 
     for line in lines {
         if let Ok(line) = line {
@@ -36,11 +50,14 @@ pub fn run(lines: Lines<BufReader<File>>) -> (i64, i64) {
             this_bag = clean_bag_color(this_bag);
             for c in contents.split(",") {
                 if !c.contains("no other bags") {
-                    let (_, child_bag) = get_count_and_clean(c);
+                    let (count, child_bag) = get_count_and_clean(c);
                     // Tackle part 1
                     // Here we map children to their parents
                     let parents = part1_map.entry(String::from(child_bag)).or_insert(HashSet::new());
                     parents.insert(String::from(this_bag));
+
+                    let children = part2_map.entry(String::from(this_bag)).or_insert(Vec::new());
+                    children.push((count, String::from(child_bag)));
                 }
             }
         }
@@ -64,5 +81,8 @@ pub fn run(lines: Lines<BufReader<File>>) -> (i64, i64) {
 
     // Subtract one because we don't count the original bag
     result.0 = seen.len() as i64 - 1;
+    result.1 = count_bags_in(TARGET_BAG, &part2_map) - 1;
+
+
     result
 }
