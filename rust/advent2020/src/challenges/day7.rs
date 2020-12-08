@@ -1,55 +1,39 @@
-use std::collections::{HashMap, HashSet};
 use std::fs::File;
 use std::io::{BufReader, Lines};
-use std::vec::Vec;
 
-fn get_bag_color(bag_str: &str) -> &str {
-    bag_str.split("bag").next().unwrap().trim()
+fn split_root_and_contents(line: &str) -> (&str, &str) {
+    let mut root_and_contents = line.split("contain");
+    let this_bag = root_and_contents.next().unwrap().trim();
+    let contents = root_and_contents.next().unwrap().trim();
+    (this_bag, contents)
 }
 
+fn clean_bag_color(bag_str: &str) -> &str {
+    bag_str.trim().split("bag").next().unwrap().trim()
+}
+
+fn get_count_and_clean(bag_str: &str) -> (i32, &str) {
+    let count_str = bag_str.trim().split_whitespace().next().unwrap();
+    (
+        count_str.parse().unwrap(),
+        clean_bag_color(bag_str.split(count_str).nth(1).unwrap()),
+    )
+}
+
+// Assumes valid input
 pub fn run(lines: Lines<BufReader<File>>) -> (i64, i64) {
-    let mut results = (0, 0);
-    let mut bag_to_parent: HashMap<String, HashSet<String>> = HashMap::new();
+    let result = (0, 0);
     for line in lines {
-        if let Ok(l) = line {
-            let mut root_bag = l.split("contain");
-            let root_bag_color = get_bag_color(root_bag.next().unwrap());
-            let bag_rules = root_bag.next().unwrap().trim();
-            if !bag_to_parent.contains_key(root_bag_color) {
-                bag_to_parent.insert(String::from(root_bag_color), HashSet::new());
-            }
-            if bag_rules == "no other bags." {
-                println!("ignore {}", root_bag_color);
-            } else {
-                // Parse bag rules
-                for rule in bag_rules.split(",") {
-                    let mut bag_characteristics = rule.split_whitespace();
-                    let count = bag_characteristics.next().unwrap();
-                    let color = get_bag_color(rule.split(count).nth(1).unwrap().trim());
-                    if !bag_to_parent.contains_key(color) {
-                        bag_to_parent.insert(String::from(color), HashSet::new());
-                    }
-                    if let Some(parents) = bag_to_parent.get_mut(color) {
-                        parents.insert(String::from(root_bag_color));
-                    }
+        if let Ok(line) = line {
+            let (mut this_bag, contents) = split_root_and_contents(&line);
+            this_bag = clean_bag_color(this_bag);
+            for c in contents.split(",") {
+                if !c.contains("no other bags") {
+                    let (_, child_bag) = get_count_and_clean(c);
                 }
             }
-        }
-    }
-    let mut seen: HashSet<String> = HashSet::new();
-    let mut stack: Vec<&str> = Vec::new();
-    stack.push(&"shiny gold");
-    while let Some(top) = stack.pop() {
-        if !seen.contains(top) {
-            for parent in bag_to_parent[top].iter() {
-                if !seen.contains(parent) {
-                    results.0 += 1;
-                    stack.push(parent);
-                }
-            }
-            seen.insert(String::from(top));
         }
     }
 
-    results
+    result
 }
