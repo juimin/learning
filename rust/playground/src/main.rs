@@ -8,6 +8,7 @@ mod structures;
 mod slices;
 mod variables;
 mod datastructs;
+mod errors;
 
 fn main() {
     // Each module in the playground will include a run function and run everything
@@ -22,4 +23,5 @@ fn main() {
     structures::main();
     enums::main();
     datastructs::main();
+    errors::main();
 }
