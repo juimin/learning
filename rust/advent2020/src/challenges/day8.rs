@@ -12,8 +12,8 @@ enum Operation {
 
 #[derive(Debug)]
 struct Instruction {
-    Value: i64,
-    Op: Operation,
+    value: i64,
+    op: Operation,
 }
 
 impl Instruction {
@@ -21,15 +21,14 @@ impl Instruction {
         let mut split = s.split_whitespace();
         let op = split.next().unwrap();
         let val = split.next().unwrap();
-        println!("{} {}", op, val);
         Instruction {
-            Op: match op {
+            op: match op {
                 "nop" => Operation::Nop,
                 "acc" => Operation::Acc,
                 "jmp" => Operation::Jump,
                 _ => Operation::Nop
             },
-            Value: val.trim().parse().unwrap()
+            value: val.trim().parse().unwrap()
         }
     }
 }
@@ -44,23 +43,63 @@ pub fn run(lines: Lines<BufReader<File>>) -> (i64, i64) {
         }
     }
 
-    let mut idx: i64 = 0;
-    let mut seen: HashSet<i64> = HashSet::new();
-    let instruction_size = instructions.len() as i64;
-    while idx < instruction_size && !seen.contains(&idx) {
-
-        let instruction = &instructions[idx as usize];
-        seen.insert(idx);
-        match instruction.Op {
-            Operation::Nop => idx += 1,
-            Operation::Jump => idx += instruction.Value,
-            Operation::Acc => {
-                results.0 += instruction.Value;
-                idx += 1
-            },
-            _ => panic!("What the fuck"),
+    let mut swappable: Vec<i64> = Vec::new();
+    for (index, ins) in instructions.iter().enumerate() {
+        match ins.op {
+            Operation::Nop => swappable.push(index as i64),
+            Operation::Jump => swappable.push(index as i64),
+            _ => (),
         }
     }
+
+    let instruction_size = instructions.len() as i64;
+
+    // Part 1 Solution
+    let mut idx: i64 = 0;
+    let mut seen: HashSet<i64> = HashSet::new();
+    while idx < instruction_size && !seen.contains(&idx) {
+        let instruction = &instructions[idx as usize];
+        seen.insert(idx);
+        match instruction.op {
+            Operation::Nop => idx += 1,
+            Operation::Jump => idx += instruction.value,
+            Operation::Acc => {
+                results.0 += instruction.value;
+                idx += 1
+            },
+        }
+    }
+
+    // Part 2 Solution
+    for swap_idx in swappable {
+        let mut idx: i64 = 0;
+        let mut acc = 0;
+        let mut seen: HashSet<i64> = HashSet::new();
+        while idx < instruction_size && !seen.contains(&idx) {
+            let instruction = &instructions[idx as usize];
+            let mut op = &instruction.op;
+            if idx == swap_idx {
+                match op {
+                    Operation::Jump => op = &Operation::Nop,
+                    Operation::Nop => op = &Operation::Jump,
+                    _ => (),
+                }
+            }
+            seen.insert(idx);
+            match op {
+                Operation::Nop => idx += 1,
+                Operation::Jump => idx += instruction.value,
+                Operation::Acc => {
+                    acc += instruction.value;
+                    idx += 1
+                },
+            }
+        }
+        if idx >= instruction_size {
+            results.1 = acc;
+        }
+    }
+
 
     results
 }
