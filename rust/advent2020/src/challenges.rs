@@ -8,6 +8,7 @@ mod day5;
 mod day6;
 mod day7;
 mod day8;
+mod day9;
 
 pub fn run(day: u8, file: &str) {
     if let Ok(lines) = adventlib::read_lines(file) {
@@ -20,6 +21,7 @@ pub fn run(day: u8, file: &str) {
             6 => day6::run(lines),
             7 => day7::run(lines),
             8 => day8::run(lines),
+            9 => day9::run(lines),
             _ => (-1, -1),
         };
         println!("Day {} Part 1: {}", day, results.0);
