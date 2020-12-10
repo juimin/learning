@@ -9,6 +9,7 @@ mod slices;
 mod variables;
 mod datastructs;
 mod errors;
+mod generics;
 
 fn main() {
     // Each module in the playground will include a run function and run everything
@@ -24,4 +25,5 @@ fn main() {
     enums::main();
     datastructs::main();
     errors::main();
+    generics::main();
 }
