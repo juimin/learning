@@ -1,0 +1,2267 @@
+Ship: (0, 0)   (W5)->   Waypoint: (5, 1)
+Waypoint offset: x: 5 y: 1
+
+Ship: (0, 0)   (N3)->   Waypoint: (5, 4)
+Waypoint offset: x: 5 y: 4
+
+Ship: (0, 0)   (W4)->   Waypoint: (1, 4)
+Waypoint offset: x: 1 y: 4
+
+Ship: (2, 8)   (F2)->   Waypoint: (3, 12)
+Waypoint offset: x: 1 y: 4
+
+Ship: (2, 8)   (N3)->   Waypoint: (3, 15)
+Waypoint offset: x: 1 y: 7
+
+Ship: (2, 8)   (R180)->   Waypoint: (1, 1)
+Waypoint offset: x: -1 y: -7
+
+Ship: (2, 8)   (E2)->   Waypoint: (3, 1)
+Waypoint offset: x: 1 y: -7
+
+Ship: (2, 8)   (S4)->   Waypoint: (3, -3)
+Waypoint offset: x: 1 y: -11
+
+Ship: (2, 8)   (E5)->   Waypoint: (8, -3)
+Waypoint offset: x: 6 y: -11
+
+Ship: (2, 8)   (N4)->   Waypoint: (8, 1)
+Waypoint offset: x: 6 y: -7
+
+Ship: (2, 8)   (E2)->   Waypoint: (10, 1)
+Waypoint offset: x: 8 y: -7
+
+Ship: (2, 8)   (L90)->   Waypoint: (9, 16)
+Waypoint offset: x: 7 y: 8
+
+Ship: (569, 656)   (F81)->   Waypoint: (576, 664)
+Waypoint offset: x: 7 y: 8
+
+Ship: (569, 656)   (E5)->   Waypoint: (581, 664)
+Waypoint offset: x: 12 y: 8
+
+Ship: (569, 656)   (R180)->   Waypoint: (557, 648)
+Waypoint offset: x: -12 y: -8
+
+Ship: (569, 656)   (E2)->   Waypoint: (559, 648)
+Waypoint offset: x: -10 y: -8
+
+Ship: (-311, -48)   (F88)->   Waypoint: (-321, -56)
+Waypoint offset: x: -10 y: -8
+
+Ship: (-311, -48)   (L90)->   Waypoint: (-303, -58)
+Waypoint offset: x: 8 y: -10
+
+Ship: (-311, -48)   (N4)->   Waypoint: (-303, -54)
+Waypoint offset: x: 8 y: -6
+
+Ship: (-311, -48)   (E1)->   Waypoint: (-302, -54)
+Waypoint offset: x: 9 y: -6
+
+Ship: (499, -588)   (F90)->   Waypoint: (508, -594)
+Waypoint offset: x: 9 y: -6
+
+Ship: (499, -588)   (S3)->   Waypoint: (508, -597)
+Waypoint offset: x: 9 y: -9
+
+Ship: (499, -588)   (W3)->   Waypoint: (505, -597)
+Waypoint offset: x: 6 y: -9
+
+Ship: (499, -588)   (R90)->   Waypoint: (490, -594)
+Waypoint offset: x: -9 y: -6
+
+Ship: (-221, -1068)   (F80)->   Waypoint: (-230, -1074)
+Waypoint offset: x: -9 y: -6
+
+Ship: (-221, -1068)   (E4)->   Waypoint: (-226, -1074)
+Waypoint offset: x: -5 y: -6
+
+Ship: (-361, -1236)   (F28)->   Waypoint: (-366, -1242)
+Waypoint offset: x: -5 y: -6
+
+Ship: (-361, -1236)   (R180)->   Waypoint: (-356, -1230)
+Waypoint offset: x: 5 y: 6
+
+Ship: (-361, -1236)   (S1)->   Waypoint: (-356, -1231)
+Waypoint offset: x: 5 y: 5
+
+Ship: (39, -836)   (F80)->   Waypoint: (44, -831)
+Waypoint offset: x: 5 y: 5
+
+Ship: (39, -836)   (E4)->   Waypoint: (48, -831)
+Waypoint offset: x: 9 y: 5
+
+Ship: (201, -746)   (F18)->   Waypoint: (210, -741)
+Waypoint offset: x: 9 y: 5
+
+Ship: (201, -746)   (S5)->   Waypoint: (210, -746)
+Waypoint offset: x: 9 y: 0
+
+Ship: (201, -746)   (W4)->   Waypoint: (206, -746)
+Waypoint offset: x: 5 y: 0
+
+Ship: (266, -746)   (F13)->   Waypoint: (271, -746)
+Waypoint offset: x: 5 y: 0
+
+Ship: (266, -746)   (R90)->   Waypoint: (266, -751)
+Waypoint offset: x: 0 y: -5
+
+Ship: (266, -746)   (S3)->   Waypoint: (266, -754)
+Waypoint offset: x: 0 y: -8
+
+Ship: (266, -746)   (W5)->   Waypoint: (261, -754)
+Waypoint offset: x: -5 y: -8
+
+Ship: (266, -746)   (N2)->   Waypoint: (261, -752)
+Waypoint offset: x: -5 y: -6
+
+Ship: (-114, -1202)   (F76)->   Waypoint: (-119, -1208)
+Waypoint offset: x: -5 y: -6
+
+Ship: (-114, -1202)   (L90)->   Waypoint: (-108, -1207)
+Waypoint offset: x: 6 y: -5
+
+Ship: (-114, -1202)   (N4)->   Waypoint: (-108, -1203)
+Waypoint offset: x: 6 y: -1
+
+Ship: (180, -1251)   (F49)->   Waypoint: (186, -1252)
+Waypoint offset: x: 6 y: -1
+
+Ship: (180, -1251)   (L180)->   Waypoint: (181, -1245)
+Waypoint offset: x: 1 y: 6
+
+Ship: (180, -1251)   (E5)->   Waypoint: (186, -1245)
+Waypoint offset: x: 6 y: 6
+
+Ship: (180, -1251)   (R90)->   Waypoint: (186, -1257)
+Waypoint offset: x: 6 y: -6
+
+Ship: (486, -1557)   (F51)->   Waypoint: (492, -1563)
+Waypoint offset: x: 6 y: -6
+
+Ship: (486, -1557)   (E4)->   Waypoint: (496, -1563)
+Waypoint offset: x: 10 y: -6
+
+Ship: (486, -1557)   (L180)->   Waypoint: (492, -1547)
+Waypoint offset: x: 6 y: 10
+
+Ship: (1002, -697)   (F86)->   Waypoint: (1008, -687)
+Waypoint offset: x: 6 y: 10
+
+Ship: (1002, -697)   (S5)->   Waypoint: (1008, -692)
+Waypoint offset: x: 6 y: 5
+
+Ship: (1002, -697)   (L180)->   Waypoint: (997, -691)
+Waypoint offset: x: -5 y: 6
+
+Ship: (987, -679)   (F3)->   Waypoint: (982, -673)
+Waypoint offset: x: -5 y: 6
+
+Ship: (987, -679)   (E5)->   Waypoint: (987, -673)
+Waypoint offset: x: 0 y: 6
+
+Ship: (987, -679)   (W1)->   Waypoint: (986, -673)
+Waypoint offset: x: -1 y: 6
+
+Ship: (987, -679)   (R90)->   Waypoint: (993, -678)
+Waypoint offset: x: 6 y: 1
+
+Ship: (1311, -625)   (F54)->   Waypoint: (1317, -624)
+Waypoint offset: x: 6 y: 1
+
+Ship: (1311, -625)   (N4)->   Waypoint: (1317, -620)
+Waypoint offset: x: 6 y: 5
+
+Ship: (1311, -625)   (E5)->   Waypoint: (1322, -620)
+Waypoint offset: x: 11 y: 5
+
+Ship: (1311, -625)   (R90)->   Waypoint: (1316, -636)
+Waypoint offset: x: 5 y: -11
+
+Ship: (1311, -625)   (E4)->   Waypoint: (1320, -636)
+Waypoint offset: x: 9 y: -11
+
+Ship: (1311, -625)   (N3)->   Waypoint: (1320, -633)
+Waypoint offset: x: 9 y: -8
+
+Ship: (1311, -625)   (W1)->   Waypoint: (1319, -633)
+Waypoint offset: x: 8 y: -8
+
+Ship: (1311, -625)   (E4)->   Waypoint: (1323, -633)
+Waypoint offset: x: 12 y: -8
+
+Ship: (1311, -625)   (R180)->   Waypoint: (1299, -617)
+Waypoint offset: x: -12 y: 8
+
+Ship: (1311, -625)   (W2)->   Waypoint: (1297, -617)
+Waypoint offset: x: -14 y: 8
+
+Ship: (1283, -609)   (F2)->   Waypoint: (1269, -601)
+Waypoint offset: x: -14 y: 8
+
+Ship: (1283, -609)   (S5)->   Waypoint: (1269, -606)
+Waypoint offset: x: -14 y: 3
+
+Ship: (1283, -609)   (W4)->   Waypoint: (1265, -606)
+Waypoint offset: x: -18 y: 3
+
+Ship: (1283, -609)   (E3)->   Waypoint: (1268, -606)
+Waypoint offset: x: -15 y: 3
+
+Ship: (1283, -609)   (R90)->   Waypoint: (1286, -594)
+Waypoint offset: x: 3 y: 15
+
+Ship: (1430, 126)   (F49)->   Waypoint: (1433, 141)
+Waypoint offset: x: 3 y: 15
+
+Ship: (1430, 126)   (R90)->   Waypoint: (1445, 123)
+Waypoint offset: x: 15 y: -3
+
+Ship: (1430, 126)   (W5)->   Waypoint: (1440, 123)
+Waypoint offset: x: 10 y: -3
+
+Ship: (1430, 126)   (N3)->   Waypoint: (1440, 126)
+Waypoint offset: x: 10 y: 0
+
+Ship: (1900, 126)   (F47)->   Waypoint: (1910, 126)
+Waypoint offset: x: 10 y: 0
+
+Ship: (1900, 126)   (E1)->   Waypoint: (1911, 126)
+Waypoint offset: x: 11 y: 0
+
+Ship: (1900, 126)   (L90)->   Waypoint: (1900, 137)
+Waypoint offset: x: 0 y: 11
+
+Ship: (1900, 126)   (E2)->   Waypoint: (1902, 137)
+Waypoint offset: x: 2 y: 11
+
+Ship: (2072, 1072)   (F86)->   Waypoint: (2074, 1083)
+Waypoint offset: x: 2 y: 11
+
+Ship: (2072, 1072)   (E3)->   Waypoint: (2077, 1083)
+Waypoint offset: x: 5 y: 11
+
+Ship: (2072, 1072)   (R90)->   Waypoint: (2083, 1067)
+Waypoint offset: x: 11 y: -5
+
+Ship: (3172, 572)   (F100)->   Waypoint: (3183, 567)
+Waypoint offset: x: 11 y: -5
+
+Ship: (4096, 152)   (F84)->   Waypoint: (4107, 147)
+Waypoint offset: x: 11 y: -5
+
+Ship: (4096, 152)   (N2)->   Waypoint: (4107, 149)
+Waypoint offset: x: 11 y: -3
+
+Ship: (4228, 116)   (F12)->   Waypoint: (4239, 113)
+Waypoint offset: x: 11 y: -3
+
+Ship: (4228, 116)   (L90)->   Waypoint: (4231, 127)
+Waypoint offset: x: 3 y: 11
+
+Ship: (4228, 116)   (N4)->   Waypoint: (4231, 131)
+Waypoint offset: x: 3 y: 15
+
+Ship: (4228, 116)   (W5)->   Waypoint: (4226, 131)
+Waypoint offset: x: -2 y: 15
+
+Ship: (4148, 716)   (F40)->   Waypoint: (4146, 731)
+Waypoint offset: x: -2 y: 15
+
+Ship: (4148, 716)   (N5)->   Waypoint: (4146, 736)
+Waypoint offset: x: -2 y: 20
+
+Ship: (4012, 2076)   (F68)->   Waypoint: (4010, 2096)
+Waypoint offset: x: -2 y: 20
+
+Ship: (4012, 2076)   (W3)->   Waypoint: (4007, 2096)
+Waypoint offset: x: -5 y: 20
+
+Ship: (4012, 2076)   (R90)->   Waypoint: (4032, 2081)
+Waypoint offset: x: 20 y: 5
+
+Ship: (4012, 2076)   (W4)->   Waypoint: (4028, 2081)
+Waypoint offset: x: 16 y: 5
+
+Ship: (4012, 2076)   (N1)->   Waypoint: (4028, 2082)
+Waypoint offset: x: 16 y: 6
+
+Ship: (5020, 2454)   (F63)->   Waypoint: (5036, 2460)
+Waypoint offset: x: 16 y: 6
+
+Ship: (5020, 2454)   (W5)->   Waypoint: (5031, 2460)
+Waypoint offset: x: 11 y: 6
+
+Ship: (5020, 2454)   (S3)->   Waypoint: (5031, 2457)
+Waypoint offset: x: 11 y: 3
+
+Ship: (5592, 2610)   (F52)->   Waypoint: (5603, 2613)
+Waypoint offset: x: 11 y: 3
+
+Ship: (5592, 2610)   (R180)->   Waypoint: (5581, 2607)
+Waypoint offset: x: -11 y: -3
+
+Ship: (5592, 2610)   (W1)->   Waypoint: (5580, 2607)
+Waypoint offset: x: -12 y: -3
+
+Ship: (5592, 2610)   (W4)->   Waypoint: (5576, 2607)
+Waypoint offset: x: -16 y: -3
+
+Ship: (5592, 2610)   (L90)->   Waypoint: (5595, 2594)
+Waypoint offset: x: 3 y: -16
+
+Ship: (5592, 2610)   (N4)->   Waypoint: (5595, 2598)
+Waypoint offset: x: 3 y: -12
+
+Ship: (5592, 2610)   (R90)->   Waypoint: (5580, 2607)
+Waypoint offset: x: -12 y: -3
+
+Ship: (5592, 2610)   (S4)->   Waypoint: (5580, 2603)
+Waypoint offset: x: -12 y: -7
+
+Ship: (5592, 2610)   (L90)->   Waypoint: (5599, 2598)
+Waypoint offset: x: 7 y: -12
+
+Ship: (6131, 1686)   (F77)->   Waypoint: (6138, 1674)
+Waypoint offset: x: 7 y: -12
+
+Ship: (6131, 1686)   (R90)->   Waypoint: (6119, 1679)
+Waypoint offset: x: -12 y: -7
+
+Ship: (6131, 1686)   (E5)->   Waypoint: (6124, 1679)
+Waypoint offset: x: -7 y: -7
+
+Ship: (5991, 1546)   (F20)->   Waypoint: (5984, 1539)
+Waypoint offset: x: -7 y: -7
+
+Ship: (5991, 1546)   (N3)->   Waypoint: (5984, 1542)
+Waypoint offset: x: -7 y: -4
+
+Ship: (5991, 1546)   (W5)->   Waypoint: (5979, 1542)
+Waypoint offset: x: -12 y: -4
+
+Ship: (5991, 1546)   (R90)->   Waypoint: (5987, 1558)
+Waypoint offset: x: -4 y: 12
+
+Ship: (5991, 1546)   (E5)->   Waypoint: (5992, 1558)
+Waypoint offset: x: 1 y: 12
+
+Ship: (5991, 1546)   (R180)->   Waypoint: (5990, 1534)
+Waypoint offset: x: -1 y: -12
+
+Ship: (5928, 790)   (F63)->   Waypoint: (5927, 778)
+Waypoint offset: x: -1 y: -12
+
+Ship: (5928, 790)   (S1)->   Waypoint: (5927, 777)
+Waypoint offset: x: -1 y: -13
+
+Ship: (5928, 790)   (W1)->   Waypoint: (5926, 777)
+Waypoint offset: x: -2 y: -13
+
+Ship: (5928, 790)   (W5)->   Waypoint: (5921, 777)
+Waypoint offset: x: -7 y: -13
+
+Ship: (5844, 634)   (F12)->   Waypoint: (5837, 621)
+Waypoint offset: x: -7 y: -13
+
+Ship: (5844, 634)   (E5)->   Waypoint: (5842, 621)
+Waypoint offset: x: -2 y: -13
+
+Ship: (5844, 634)   (L90)->   Waypoint: (5857, 632)
+Waypoint offset: x: 13 y: -2
+
+Ship: (5844, 634)   (N4)->   Waypoint: (5857, 636)
+Waypoint offset: x: 13 y: 2
+
+Ship: (6923, 800)   (F83)->   Waypoint: (6936, 802)
+Waypoint offset: x: 13 y: 2
+
+Ship: (6923, 800)   (W4)->   Waypoint: (6932, 802)
+Waypoint offset: x: 9 y: 2
+
+Ship: (7751, 984)   (F92)->   Waypoint: (7760, 986)
+Waypoint offset: x: 9 y: 2
+
+Ship: (7751, 984)   (W2)->   Waypoint: (7758, 986)
+Waypoint offset: x: 7 y: 2
+
+Ship: (8038, 1066)   (F41)->   Waypoint: (8045, 1068)
+Waypoint offset: x: 7 y: 2
+
+Ship: (8038, 1066)   (E3)->   Waypoint: (8048, 1068)
+Waypoint offset: x: 10 y: 2
+
+Ship: (8038, 1066)   (S5)->   Waypoint: (8048, 1063)
+Waypoint offset: x: 10 y: -3
+
+Ship: (8038, 1066)   (R90)->   Waypoint: (8035, 1056)
+Waypoint offset: x: -3 y: -10
+
+Ship: (8038, 1066)   (S5)->   Waypoint: (8035, 1051)
+Waypoint offset: x: -3 y: -15
+
+Ship: (8038, 1066)   (W2)->   Waypoint: (8033, 1051)
+Waypoint offset: x: -5 y: -15
+
+Ship: (8038, 1066)   (N1)->   Waypoint: (8033, 1052)
+Waypoint offset: x: -5 y: -14
+
+Ship: (8018, 1010)   (F4)->   Waypoint: (8013, 996)
+Waypoint offset: x: -5 y: -14
+
+Ship: (8018, 1010)   (N1)->   Waypoint: (8013, 997)
+Waypoint offset: x: -5 y: -13
+
+Ship: (7768, 360)   (F50)->   Waypoint: (7763, 347)
+Waypoint offset: x: -5 y: -13
+
+Ship: (7768, 360)   (L180)->   Waypoint: (7781, 355)
+Waypoint offset: x: 13 y: -5
+
+Ship: (8717, -5)   (F73)->   Waypoint: (8730, -10)
+Waypoint offset: x: 13 y: -5
+
+Ship: (8717, -5)   (N2)->   Waypoint: (8730, -8)
+Waypoint offset: x: 13 y: -3
+
+Ship: (8717, -5)   (L90)->   Waypoint: (8720, 8)
+Waypoint offset: x: 3 y: 13
+
+Ship: (8717, -5)   (E2)->   Waypoint: (8722, 8)
+Waypoint offset: x: 5 y: 13
+
+Ship: (8717, -5)   (S5)->   Waypoint: (8722, 3)
+Waypoint offset: x: 5 y: 8
+
+Ship: (8812, 147)   (F19)->   Waypoint: (8817, 155)
+Waypoint offset: x: 5 y: 8
+
+Ship: (8812, 147)   (L90)->   Waypoint: (8804, 152)
+Waypoint offset: x: -8 y: 5
+
+Ship: (8812, 147)   (E1)->   Waypoint: (8805, 152)
+Waypoint offset: x: -7 y: 5
+
+Ship: (8812, 147)   (N4)->   Waypoint: (8805, 156)
+Waypoint offset: x: -7 y: 9
+
+Ship: (8812, 147)   (L90)->   Waypoint: (8803, 140)
+Waypoint offset: x: -9 y: -7
+
+Ship: (8812, 147)   (S2)->   Waypoint: (8803, 138)
+Waypoint offset: x: -9 y: -9
+
+Ship: (8812, 147)   (L90)->   Waypoint: (8821, 138)
+Waypoint offset: x: 9 y: -9
+
+Ship: (9622, -663)   (F90)->   Waypoint: (9631, -672)
+Waypoint offset: x: 9 y: -9
+
+Ship: (9622, -663)   (L90)->   Waypoint: (9631, -654)
+Waypoint offset: x: 9 y: 9
+
+Ship: (9622, -663)   (N3)->   Waypoint: (9631, -651)
+Waypoint offset: x: 9 y: 12
+
+Ship: (9622, -663)   (E1)->   Waypoint: (9632, -651)
+Waypoint offset: x: 10 y: 12
+
+Ship: (9942, -279)   (F32)->   Waypoint: (9952, -267)
+Waypoint offset: x: 10 y: 12
+
+Ship: (9942, -279)   (E1)->   Waypoint: (9953, -267)
+Waypoint offset: x: 11 y: 12
+
+Ship: (10668, 513)   (F66)->   Waypoint: (10679, 525)
+Waypoint offset: x: 11 y: 12
+
+Ship: (10668, 513)   (R180)->   Waypoint: (10657, 501)
+Waypoint offset: x: -11 y: -12
+
+Ship: (10668, 513)   (E1)->   Waypoint: (10658, 501)
+Waypoint offset: x: -10 y: -12
+
+Ship: (10668, 513)   (S2)->   Waypoint: (10658, 499)
+Waypoint offset: x: -10 y: -14
+
+Ship: (9948, -495)   (F72)->   Waypoint: (9938, -509)
+Waypoint offset: x: -10 y: -14
+
+Ship: (9948, -495)   (R90)->   Waypoint: (9934, -485)
+Waypoint offset: x: -14 y: 10
+
+Ship: (9948, -495)   (S2)->   Waypoint: (9934, -487)
+Waypoint offset: x: -14 y: 8
+
+Ship: (9948, -495)   (E1)->   Waypoint: (9935, -487)
+Waypoint offset: x: -13 y: 8
+
+Ship: (9948, -495)   (N3)->   Waypoint: (9935, -484)
+Waypoint offset: x: -13 y: 11
+
+Ship: (9636, -231)   (F24)->   Waypoint: (9623, -220)
+Waypoint offset: x: -13 y: 11
+
+Ship: (9636, -231)   (W4)->   Waypoint: (9619, -220)
+Waypoint offset: x: -17 y: 11
+
+Ship: (9092, 121)   (F32)->   Waypoint: (9075, 132)
+Waypoint offset: x: -17 y: 11
+
+Ship: (9092, 121)   (W5)->   Waypoint: (9070, 132)
+Waypoint offset: x: -22 y: 11
+
+Ship: (9092, 121)   (S3)->   Waypoint: (9070, 129)
+Waypoint offset: x: -22 y: 8
+
+Ship: (9092, 121)   (E2)->   Waypoint: (9072, 129)
+Waypoint offset: x: -20 y: 8
+
+Ship: (8052, 537)   (F52)->   Waypoint: (8032, 545)
+Waypoint offset: x: -20 y: 8
+
+Ship: (8052, 537)   (W5)->   Waypoint: (8027, 545)
+Waypoint offset: x: -25 y: 8
+
+Ship: (6702, 969)   (F54)->   Waypoint: (6677, 977)
+Waypoint offset: x: -25 y: 8
+
+Ship: (6702, 969)   (E4)->   Waypoint: (6681, 977)
+Waypoint offset: x: -21 y: 8
+
+Ship: (4665, 1745)   (F97)->   Waypoint: (4644, 1753)
+Waypoint offset: x: -21 y: 8
+
+Ship: (4665, 1745)   (N1)->   Waypoint: (4644, 1754)
+Waypoint offset: x: -21 y: 9
+
+Ship: (4665, 1745)   (R90)->   Waypoint: (4674, 1766)
+Waypoint offset: x: 9 y: 21
+
+Ship: (4665, 1745)   (W3)->   Waypoint: (4671, 1766)
+Waypoint offset: x: 6 y: 21
+
+Ship: (4665, 1745)   (R180)->   Waypoint: (4659, 1724)
+Waypoint offset: x: -6 y: -21
+
+Ship: (4665, 1745)   (E2)->   Waypoint: (4661, 1724)
+Waypoint offset: x: -4 y: -21
+
+Ship: (4665, 1745)   (S3)->   Waypoint: (4661, 1721)
+Waypoint offset: x: -4 y: -24
+
+Ship: (4665, 1745)   (R90)->   Waypoint: (4641, 1749)
+Waypoint offset: x: -24 y: 4
+
+Ship: (4665, 1745)   (N1)->   Waypoint: (4641, 1750)
+Waypoint offset: x: -24 y: 5
+
+Ship: (4665, 1745)   (N3)->   Waypoint: (4641, 1753)
+Waypoint offset: x: -24 y: 8
+
+Ship: (2841, 2353)   (F76)->   Waypoint: (2817, 2361)
+Waypoint offset: x: -24 y: 8
+
+Ship: (2841, 2353)   (R90)->   Waypoint: (2849, 2377)
+Waypoint offset: x: 8 y: 24
+
+Ship: (3185, 3385)   (F43)->   Waypoint: (3193, 3409)
+Waypoint offset: x: 8 y: 24
+
+Ship: (3185, 3385)   (E3)->   Waypoint: (3196, 3409)
+Waypoint offset: x: 11 y: 24
+
+Ship: (3185, 3385)   (N4)->   Waypoint: (3196, 3413)
+Waypoint offset: x: 11 y: 28
+
+Ship: (3185, 3385)   (L90)->   Waypoint: (3157, 3396)
+Waypoint offset: x: -28 y: 11
+
+Ship: (3185, 3385)   (E4)->   Waypoint: (3161, 3396)
+Waypoint offset: x: -24 y: 11
+
+Ship: (2417, 3737)   (F32)->   Waypoint: (2393, 3748)
+Waypoint offset: x: -24 y: 11
+
+Ship: (2417, 3737)   (E4)->   Waypoint: (2397, 3748)
+Waypoint offset: x: -20 y: 11
+
+Ship: (2417, 3737)   (S3)->   Waypoint: (2397, 3745)
+Waypoint offset: x: -20 y: 8
+
+Ship: (1497, 4105)   (F46)->   Waypoint: (1477, 4113)
+Waypoint offset: x: -20 y: 8
+
+Ship: (1497, 4105)   (R90)->   Waypoint: (1505, 4125)
+Waypoint offset: x: 8 y: 20
+
+Ship: (1497, 4105)   (N4)->   Waypoint: (1505, 4129)
+Waypoint offset: x: 8 y: 24
+
+Ship: (1497, 4105)   (E5)->   Waypoint: (1510, 4129)
+Waypoint offset: x: 13 y: 24
+
+Ship: (1497, 4105)   (L90)->   Waypoint: (1473, 4118)
+Waypoint offset: x: -24 y: 13
+
+Ship: (705, 4534)   (F33)->   Waypoint: (681, 4547)
+Waypoint offset: x: -24 y: 13
+
+Ship: (705, 4534)   (W1)->   Waypoint: (680, 4547)
+Waypoint offset: x: -25 y: 13
+
+Ship: (705, 4534)   (W1)->   Waypoint: (679, 4547)
+Waypoint offset: x: -26 y: 13
+
+Ship: (705, 4534)   (N1)->   Waypoint: (679, 4548)
+Waypoint offset: x: -26 y: 14
+
+Ship: (705, 4534)   (E3)->   Waypoint: (682, 4548)
+Waypoint offset: x: -23 y: 14
+
+Ship: (705, 4534)   (S1)->   Waypoint: (682, 4547)
+Waypoint offset: x: -23 y: 13
+
+Ship: (705, 4534)   (R90)->   Waypoint: (718, 4557)
+Waypoint offset: x: 13 y: 23
+
+Ship: (705, 4534)   (W3)->   Waypoint: (715, 4557)
+Waypoint offset: x: 10 y: 23
+
+Ship: (705, 4534)   (L90)->   Waypoint: (682, 4544)
+Waypoint offset: x: -23 y: 10
+
+Ship: (-652, 5124)   (F59)->   Waypoint: (-675, 5134)
+Waypoint offset: x: -23 y: 10
+
+Ship: (-652, 5124)   (W3)->   Waypoint: (-678, 5134)
+Waypoint offset: x: -26 y: 10
+
+Ship: (-652, 5124)   (S1)->   Waypoint: (-678, 5133)
+Waypoint offset: x: -26 y: 9
+
+Ship: (-834, 5187)   (F7)->   Waypoint: (-860, 5196)
+Waypoint offset: x: -26 y: 9
+
+Ship: (-834, 5187)   (W3)->   Waypoint: (-863, 5196)
+Waypoint offset: x: -29 y: 9
+
+Ship: (-3299, 5952)   (F85)->   Waypoint: (-3328, 5961)
+Waypoint offset: x: -29 y: 9
+
+Ship: (-3299, 5952)   (R90)->   Waypoint: (-3290, 5981)
+Waypoint offset: x: 9 y: 29
+
+Ship: (-2750, 7721)   (F61)->   Waypoint: (-2741, 7750)
+Waypoint offset: x: 9 y: 29
+
+Ship: (-2750, 7721)   (E5)->   Waypoint: (-2736, 7750)
+Waypoint offset: x: 14 y: 29
+
+Ship: (-2750, 7721)   (S5)->   Waypoint: (-2736, 7745)
+Waypoint offset: x: 14 y: 24
+
+Ship: (-2400, 8321)   (F25)->   Waypoint: (-2386, 8345)
+Waypoint offset: x: 14 y: 24
+
+Ship: (-2288, 8513)   (F8)->   Waypoint: (-2274, 8537)
+Waypoint offset: x: 14 y: 24
+
+Ship: (-2288, 8513)   (L90)->   Waypoint: (-2312, 8527)
+Waypoint offset: x: -24 y: 14
+
+Ship: (-2288, 8513)   (N3)->   Waypoint: (-2312, 8530)
+Waypoint offset: x: -24 y: 17
+
+Ship: (-4208, 9873)   (F80)->   Waypoint: (-4232, 9890)
+Waypoint offset: x: -24 y: 17
+
+Ship: (-4208, 9873)   (W4)->   Waypoint: (-4236, 9890)
+Waypoint offset: x: -28 y: 17
+
+Ship: (-6700, 11386)   (F89)->   Waypoint: (-6728, 11403)
+Waypoint offset: x: -28 y: 17
+
+Ship: (-6700, 11386)   (N3)->   Waypoint: (-6728, 11406)
+Waypoint offset: x: -28 y: 20
+
+Ship: (-6700, 11386)   (E5)->   Waypoint: (-6723, 11406)
+Waypoint offset: x: -23 y: 20
+
+Ship: (-6700, 11386)   (N5)->   Waypoint: (-6723, 11411)
+Waypoint offset: x: -23 y: 25
+
+Ship: (-6700, 11386)   (L90)->   Waypoint: (-6725, 11363)
+Waypoint offset: x: -25 y: -23
+
+Ship: (-7950, 10236)   (F50)->   Waypoint: (-7975, 10213)
+Waypoint offset: x: -25 y: -23
+
+Ship: (-8425, 9799)   (F19)->   Waypoint: (-8450, 9776)
+Waypoint offset: x: -25 y: -23
+
+Ship: (-8425, 9799)   (L90)->   Waypoint: (-8402, 9774)
+Waypoint offset: x: 23 y: -25
+
+Ship: (-8425, 9799)   (N2)->   Waypoint: (-8402, 9776)
+Waypoint offset: x: 23 y: -23
+
+Ship: (-8425, 9799)   (R90)->   Waypoint: (-8448, 9776)
+Waypoint offset: x: -23 y: -23
+
+Ship: (-8609, 9615)   (F8)->   Waypoint: (-8632, 9592)
+Waypoint offset: x: -23 y: -23
+
+Ship: (-8609, 9615)   (W5)->   Waypoint: (-8637, 9592)
+Waypoint offset: x: -28 y: -23
+
+Ship: (-8609, 9615)   (S5)->   Waypoint: (-8637, 9587)
+Waypoint offset: x: -28 y: -28
+
+Ship: (-8609, 9615)   (L90)->   Waypoint: (-8581, 9587)
+Waypoint offset: x: 28 y: -28
+
+Ship: (-6845, 7851)   (F63)->   Waypoint: (-6817, 7823)
+Waypoint offset: x: 28 y: -28
+
+Ship: (-6845, 7851)   (S5)->   Waypoint: (-6817, 7818)
+Waypoint offset: x: 28 y: -33
+
+Ship: (-6845, 7851)   (S2)->   Waypoint: (-6817, 7816)
+Waypoint offset: x: 28 y: -35
+
+Ship: (-5613, 6311)   (F44)->   Waypoint: (-5585, 6276)
+Waypoint offset: x: 28 y: -35
+
+Ship: (-5613, 6311)   (N1)->   Waypoint: (-5585, 6277)
+Waypoint offset: x: 28 y: -34
+
+Ship: (-5613, 6311)   (W1)->   Waypoint: (-5586, 6277)
+Waypoint offset: x: 27 y: -34
+
+Ship: (-5613, 6311)   (L90)->   Waypoint: (-5579, 6338)
+Waypoint offset: x: 34 y: 27
+
+Ship: (-5613, 6311)   (R90)->   Waypoint: (-5586, 6277)
+Waypoint offset: x: 27 y: -34
+
+Ship: (-5613, 6311)   (W2)->   Waypoint: (-5588, 6277)
+Waypoint offset: x: 25 y: -34
+
+Ship: (-5013, 5495)   (F24)->   Waypoint: (-4988, 5461)
+Waypoint offset: x: 25 y: -34
+
+Ship: (-5013, 5495)   (W3)->   Waypoint: (-4991, 5461)
+Waypoint offset: x: 22 y: -34
+
+Ship: (-5013, 5495)   (S4)->   Waypoint: (-4991, 5457)
+Waypoint offset: x: 22 y: -38
+
+Ship: (-5013, 5495)   (R90)->   Waypoint: (-5051, 5473)
+Waypoint offset: x: -38 y: -22
+
+Ship: (-7635, 3977)   (F69)->   Waypoint: (-7673, 3955)
+Waypoint offset: x: -38 y: -22
+
+Ship: (-7635, 3977)   (E5)->   Waypoint: (-7668, 3955)
+Waypoint offset: x: -33 y: -22
+
+Ship: (-10176, 2283)   (F77)->   Waypoint: (-10209, 2261)
+Waypoint offset: x: -33 y: -22
+
+Ship: (-10176, 2283)   (W4)->   Waypoint: (-10213, 2261)
+Waypoint offset: x: -37 y: -22
+
+Ship: (-11582, 1447)   (F38)->   Waypoint: (-11619, 1425)
+Waypoint offset: x: -37 y: -22
+
+Ship: (-11582, 1447)   (R180)->   Waypoint: (-11545, 1469)
+Waypoint offset: x: 37 y: 22
+
+Ship: (-11582, 1447)   (W3)->   Waypoint: (-11548, 1469)
+Waypoint offset: x: 34 y: 22
+
+Ship: (-11582, 1447)   (S5)->   Waypoint: (-11548, 1464)
+Waypoint offset: x: 34 y: 17
+
+Ship: (-11582, 1447)   (N2)->   Waypoint: (-11548, 1466)
+Waypoint offset: x: 34 y: 19
+
+Ship: (-8488, 3176)   (F91)->   Waypoint: (-8454, 3195)
+Waypoint offset: x: 34 y: 19
+
+Ship: (-6992, 4012)   (F44)->   Waypoint: (-6958, 4031)
+Waypoint offset: x: 34 y: 19
+
+Ship: (-6992, 4012)   (N2)->   Waypoint: (-6958, 4033)
+Waypoint offset: x: 34 y: 21
+
+Ship: (-6992, 4012)   (W2)->   Waypoint: (-6960, 4033)
+Waypoint offset: x: 32 y: 21
+
+Ship: (-6992, 4012)   (R90)->   Waypoint: (-6971, 3980)
+Waypoint offset: x: 21 y: -32
+
+Ship: (-6992, 4012)   (W5)->   Waypoint: (-6976, 3980)
+Waypoint offset: x: 16 y: -32
+
+Ship: (-6224, 2476)   (F48)->   Waypoint: (-6208, 2444)
+Waypoint offset: x: 16 y: -32
+
+Ship: (-6224, 2476)   (W3)->   Waypoint: (-6211, 2444)
+Waypoint offset: x: 13 y: -32
+
+Ship: (-6224, 2476)   (R90)->   Waypoint: (-6256, 2463)
+Waypoint offset: x: -32 y: -13
+
+Ship: (-8592, 1514)   (F74)->   Waypoint: (-8624, 1501)
+Waypoint offset: x: -32 y: -13
+
+Ship: (-8592, 1514)   (E4)->   Waypoint: (-8620, 1501)
+Waypoint offset: x: -28 y: -13
+
+Ship: (-8592, 1514)   (S3)->   Waypoint: (-8620, 1498)
+Waypoint offset: x: -28 y: -16
+
+Ship: (-8592, 1514)   (R90)->   Waypoint: (-8608, 1542)
+Waypoint offset: x: -16 y: 28
+
+Ship: (-8592, 1514)   (E3)->   Waypoint: (-8605, 1542)
+Waypoint offset: x: -13 y: 28
+
+Ship: (-8592, 1514)   (L90)->   Waypoint: (-8620, 1501)
+Waypoint offset: x: -28 y: -13
+
+Ship: (-10860, 461)   (F81)->   Waypoint: (-10888, 448)
+Waypoint offset: x: -28 y: -13
+
+Ship: (-10860, 461)   (W1)->   Waypoint: (-10889, 448)
+Waypoint offset: x: -29 y: -13
+
+Ship: (-12861, -436)   (F69)->   Waypoint: (-12890, -449)
+Waypoint offset: x: -29 y: -13
+
+Ship: (-12861, -436)   (W2)->   Waypoint: (-12892, -449)
+Waypoint offset: x: -31 y: -13
+
+Ship: (-12861, -436)   (N3)->   Waypoint: (-12892, -446)
+Waypoint offset: x: -31 y: -10
+
+Ship: (-12861, -436)   (R90)->   Waypoint: (-12871, -405)
+Waypoint offset: x: -10 y: 31
+
+Ship: (-12861, -436)   (E1)->   Waypoint: (-12870, -405)
+Waypoint offset: x: -9 y: 31
+
+Ship: (-12861, -436)   (R90)->   Waypoint: (-12830, -427)
+Waypoint offset: x: 31 y: 9
+
+Ship: (-12861, -436)   (L90)->   Waypoint: (-12870, -405)
+Waypoint offset: x: -9 y: 31
+
+Ship: (-12861, -436)   (E5)->   Waypoint: (-12865, -405)
+Waypoint offset: x: -4 y: 31
+
+Ship: (-12861, -436)   (S4)->   Waypoint: (-12865, -409)
+Waypoint offset: x: -4 y: 27
+
+Ship: (-12861, -436)   (E2)->   Waypoint: (-12863, -409)
+Waypoint offset: x: -2 y: 27
+
+Ship: (-12861, -436)   (S5)->   Waypoint: (-12863, -414)
+Waypoint offset: x: -2 y: 22
+
+Ship: (-12977, 840)   (F58)->   Waypoint: (-12979, 862)
+Waypoint offset: x: -2 y: 22
+
+Ship: (-12977, 840)   (N3)->   Waypoint: (-12979, 865)
+Waypoint offset: x: -2 y: 25
+
+Ship: (-13077, 2090)   (F50)->   Waypoint: (-13079, 2115)
+Waypoint offset: x: -2 y: 25
+
+Ship: (-13077, 2090)   (L90)->   Waypoint: (-13102, 2088)
+Waypoint offset: x: -25 y: -2
+
+Ship: (-13077, 2090)   (N1)->   Waypoint: (-13102, 2089)
+Waypoint offset: x: -25 y: -1
+
+Ship: (-13077, 2090)   (L90)->   Waypoint: (-13076, 2065)
+Waypoint offset: x: 1 y: -25
+
+Ship: (-13077, 2090)   (N4)->   Waypoint: (-13076, 2069)
+Waypoint offset: x: 1 y: -21
+
+Ship: (-13077, 2090)   (L180)->   Waypoint: (-13056, 2091)
+Waypoint offset: x: 21 y: 1
+
+Ship: (-13077, 2090)   (W2)->   Waypoint: (-13058, 2091)
+Waypoint offset: x: 19 y: 1
+
+Ship: (-13077, 2090)   (L90)->   Waypoint: (-13078, 2109)
+Waypoint offset: x: -1 y: 19
+
+Ship: (-13138, 3249)   (F61)->   Waypoint: (-13139, 3268)
+Waypoint offset: x: -1 y: 19
+
+Ship: (-13138, 3249)   (L90)->   Waypoint: (-13157, 3248)
+Waypoint offset: x: -19 y: -1
+
+Ship: (-13138, 3249)   (S5)->   Waypoint: (-13157, 3243)
+Waypoint offset: x: -19 y: -6
+
+Ship: (-13138, 3249)   (E1)->   Waypoint: (-13156, 3243)
+Waypoint offset: x: -18 y: -6
+
+Ship: (-13138, 3249)   (S4)->   Waypoint: (-13156, 3239)
+Waypoint offset: x: -18 y: -10
+
+Ship: (-13138, 3249)   (W1)->   Waypoint: (-13157, 3239)
+Waypoint offset: x: -19 y: -10
+
+Ship: (-13138, 3249)   (S3)->   Waypoint: (-13157, 3236)
+Waypoint offset: x: -19 y: -13
+
+Ship: (-13138, 3249)   (E4)->   Waypoint: (-13153, 3236)
+Waypoint offset: x: -15 y: -13
+
+Ship: (-14068, 2443)   (F62)->   Waypoint: (-14083, 2430)
+Waypoint offset: x: -15 y: -13
+
+Ship: (-14068, 2443)   (S2)->   Waypoint: (-14083, 2428)
+Waypoint offset: x: -15 y: -15
+
+Ship: (-14068, 2443)   (L270)->   Waypoint: (-14053, 2428)
+Waypoint offset: x: 15 y: -15
+
+Ship: (-12613, 988)   (F97)->   Waypoint: (-12598, 973)
+Waypoint offset: x: 15 y: -15
+
+Ship: (-12613, 988)   (R90)->   Waypoint: (-12628, 973)
+Waypoint offset: x: -15 y: -15
+
+Ship: (-12613, 988)   (S5)->   Waypoint: (-12628, 968)
+Waypoint offset: x: -15 y: -20
+
+Ship: (-12613, 988)   (L180)->   Waypoint: (-12593, 973)
+Waypoint offset: x: 20 y: -15
+
+Ship: (-11293, -2)   (F66)->   Waypoint: (-11273, -17)
+Waypoint offset: x: 20 y: -15
+
+Ship: (-11293, -2)   (E1)->   Waypoint: (-11272, -17)
+Waypoint offset: x: 21 y: -15
+
+Ship: (-11293, -2)   (R90)->   Waypoint: (-11308, -23)
+Waypoint offset: x: -15 y: -21
+
+Ship: (-11293, -2)   (E3)->   Waypoint: (-11305, -23)
+Waypoint offset: x: -12 y: -21
+
+Ship: (-11293, -2)   (L180)->   Waypoint: (-11272, -14)
+Waypoint offset: x: 21 y: -12
+
+Ship: (-9235, -1178)   (F98)->   Waypoint: (-9214, -1190)
+Waypoint offset: x: 21 y: -12
+
+Ship: (-9235, -1178)   (R90)->   Waypoint: (-9247, -1199)
+Waypoint offset: x: -12 y: -21
+
+Ship: (-9679, -1955)   (F37)->   Waypoint: (-9691, -1976)
+Waypoint offset: x: -12 y: -21
+
+Ship: (-9679, -1955)   (R90)->   Waypoint: (-9700, -1943)
+Waypoint offset: x: -21 y: 12
+
+Ship: (-10057, -1739)   (F18)->   Waypoint: (-10078, -1727)
+Waypoint offset: x: -21 y: 12
+
+Ship: (-10057, -1739)   (N3)->   Waypoint: (-10078, -1724)
+Waypoint offset: x: -21 y: 15
+
+Ship: (-10057, -1739)   (R90)->   Waypoint: (-10042, -1718)
+Waypoint offset: x: 15 y: 21
+
+Ship: (-10057, -1739)   (E2)->   Waypoint: (-10040, -1718)
+Waypoint offset: x: 17 y: 21
+
+Ship: (-10057, -1739)   (S3)->   Waypoint: (-10040, -1721)
+Waypoint offset: x: 17 y: 18
+
+Ship: (-10057, -1739)   (L90)->   Waypoint: (-10075, -1722)
+Waypoint offset: x: -18 y: 17
+
+Ship: (-10057, -1739)   (S4)->   Waypoint: (-10075, -1726)
+Waypoint offset: x: -18 y: 13
+
+Ship: (-11533, -673)   (F82)->   Waypoint: (-11551, -660)
+Waypoint offset: x: -18 y: 13
+
+Ship: (-11533, -673)   (W3)->   Waypoint: (-11554, -660)
+Waypoint offset: x: -21 y: 13
+
+Ship: (-13045, 263)   (F72)->   Waypoint: (-13066, 276)
+Waypoint offset: x: -21 y: 13
+
+Ship: (-13045, 263)   (N1)->   Waypoint: (-13066, 277)
+Waypoint offset: x: -21 y: 14
+
+Ship: (-13045, 263)   (E4)->   Waypoint: (-13062, 277)
+Waypoint offset: x: -17 y: 14
+
+Ship: (-14184, 1201)   (F67)->   Waypoint: (-14201, 1215)
+Waypoint offset: x: -17 y: 14
+
+Ship: (-14184, 1201)   (L90)->   Waypoint: (-14198, 1184)
+Waypoint offset: x: -14 y: -17
+
+Ship: (-14184, 1201)   (W1)->   Waypoint: (-14199, 1184)
+Waypoint offset: x: -15 y: -17
+
+Ship: (-14184, 1201)   (S2)->   Waypoint: (-14199, 1182)
+Waypoint offset: x: -15 y: -19
+
+Ship: (-15594, -585)   (F94)->   Waypoint: (-15609, -604)
+Waypoint offset: x: -15 y: -19
+
+Ship: (-15594, -585)   (R90)->   Waypoint: (-15613, -570)
+Waypoint offset: x: -19 y: 15
+
+Ship: (-16772, 345)   (F62)->   Waypoint: (-16791, 360)
+Waypoint offset: x: -19 y: 15
+
+Ship: (-16772, 345)   (N4)->   Waypoint: (-16791, 364)
+Waypoint offset: x: -19 y: 19
+
+Ship: (-16772, 345)   (W2)->   Waypoint: (-16793, 364)
+Waypoint offset: x: -21 y: 19
+
+Ship: (-16772, 345)   (S5)->   Waypoint: (-16793, 359)
+Waypoint offset: x: -21 y: 14
+
+Ship: (-16772, 345)   (R180)->   Waypoint: (-16751, 331)
+Waypoint offset: x: 21 y: -14
+
+Ship: (-15911, -229)   (F41)->   Waypoint: (-15890, -243)
+Waypoint offset: x: 21 y: -14
+
+Ship: (-15911, -229)   (W5)->   Waypoint: (-15895, -243)
+Waypoint offset: x: 16 y: -14
+
+Ship: (-15767, -355)   (F9)->   Waypoint: (-15751, -369)
+Waypoint offset: x: 16 y: -14
+
+Ship: (-15767, -355)   (W2)->   Waypoint: (-15753, -369)
+Waypoint offset: x: 14 y: -14
+
+Ship: (-15291, -831)   (F34)->   Waypoint: (-15277, -845)
+Waypoint offset: x: 14 y: -14
+
+Ship: (-15291, -831)   (L90)->   Waypoint: (-15277, -817)
+Waypoint offset: x: 14 y: 14
+
+Ship: (-15291, -831)   (N3)->   Waypoint: (-15277, -814)
+Waypoint offset: x: 14 y: 17
+
+Ship: (-15291, -831)   (R90)->   Waypoint: (-15274, -845)
+Waypoint offset: x: 17 y: -14
+
+Ship: (-15274, -845)   (F1)->   Waypoint: (-15257, -859)
+Waypoint offset: x: 17 y: -14
+
+Ship: (-15274, -845)   (N4)->   Waypoint: (-15257, -855)
+Waypoint offset: x: 17 y: -10
+
+Ship: (-15274, -845)   (E4)->   Waypoint: (-15253, -855)
+Waypoint offset: x: 21 y: -10
+
+Ship: (-15274, -845)   (R90)->   Waypoint: (-15284, -866)
+Waypoint offset: x: -10 y: -21
+
+Ship: (-15664, -1664)   (F39)->   Waypoint: (-15674, -1685)
+Waypoint offset: x: -10 y: -21
+
+Ship: (-15664, -1664)   (S5)->   Waypoint: (-15674, -1690)
+Waypoint offset: x: -10 y: -26
+
+Ship: (-15664, -1664)   (W5)->   Waypoint: (-15679, -1690)
+Waypoint offset: x: -15 y: -26
+
+Ship: (-15664, -1664)   (N5)->   Waypoint: (-15679, -1685)
+Waypoint offset: x: -15 y: -21
+
+Ship: (-15664, -1664)   (R180)->   Waypoint: (-15649, -1643)
+Waypoint offset: x: 15 y: 21
+
+Ship: (-15184, -992)   (F32)->   Waypoint: (-15169, -971)
+Waypoint offset: x: 15 y: 21
+
+Ship: (-15184, -992)   (W5)->   Waypoint: (-15174, -971)
+Waypoint offset: x: 10 y: 21
+
+Ship: (-14214, 1045)   (F97)->   Waypoint: (-14204, 1066)
+Waypoint offset: x: 10 y: 21
+
+Ship: (-14214, 1045)   (R90)->   Waypoint: (-14193, 1035)
+Waypoint offset: x: 21 y: -10
+
+Ship: (-14214, 1045)   (N4)->   Waypoint: (-14193, 1039)
+Waypoint offset: x: 21 y: -6
+
+Ship: (-14214, 1045)   (W3)->   Waypoint: (-14196, 1039)
+Waypoint offset: x: 18 y: -6
+
+Ship: (-14214, 1045)   (R90)->   Waypoint: (-14220, 1027)
+Waypoint offset: x: -6 y: -18
+
+Ship: (-14214, 1045)   (N4)->   Waypoint: (-14220, 1031)
+Waypoint offset: x: -6 y: -14
+
+Ship: (-14214, 1045)   (W2)->   Waypoint: (-14222, 1031)
+Waypoint offset: x: -8 y: -14
+
+Ship: (-14214, 1045)   (N5)->   Waypoint: (-14222, 1036)
+Waypoint offset: x: -8 y: -9
+
+Ship: (-14214, 1045)   (W5)->   Waypoint: (-14227, 1036)
+Waypoint offset: x: -13 y: -9
+
+Ship: (-14214, 1045)   (R90)->   Waypoint: (-14223, 1058)
+Waypoint offset: x: -9 y: 13
+
+Ship: (-14214, 1045)   (S4)->   Waypoint: (-14223, 1054)
+Waypoint offset: x: -9 y: 9
+
+Ship: (-14214, 1045)   (L90)->   Waypoint: (-14223, 1036)
+Waypoint offset: x: -9 y: -9
+
+Ship: (-15105, 154)   (F99)->   Waypoint: (-15114, 145)
+Waypoint offset: x: -9 y: -9
+
+Ship: (-15105, 154)   (N2)->   Waypoint: (-15114, 147)
+Waypoint offset: x: -9 y: -7
+
+Ship: (-15105, 154)   (R90)->   Waypoint: (-15112, 163)
+Waypoint offset: x: -7 y: 9
+
+Ship: (-15105, 154)   (E4)->   Waypoint: (-15108, 163)
+Waypoint offset: x: -3 y: 9
+
+Ship: (-15105, 154)   (N5)->   Waypoint: (-15108, 168)
+Waypoint offset: x: -3 y: 14
+
+Ship: (-15105, 154)   (E1)->   Waypoint: (-15107, 168)
+Waypoint offset: x: -2 y: 14
+
+Ship: (-15239, 1092)   (F67)->   Waypoint: (-15241, 1106)
+Waypoint offset: x: -2 y: 14
+
+Ship: (-15239, 1092)   (R180)->   Waypoint: (-15237, 1078)
+Waypoint offset: x: 2 y: -14
+
+Ship: (-15239, 1092)   (W3)->   Waypoint: (-15240, 1078)
+Waypoint offset: x: -1 y: -14
+
+Ship: (-15239, 1092)   (S2)->   Waypoint: (-15240, 1076)
+Waypoint offset: x: -1 y: -16
+
+Ship: (-15239, 1092)   (E2)->   Waypoint: (-15238, 1076)
+Waypoint offset: x: 1 y: -16
+
+Ship: (-15144, -428)   (F95)->   Waypoint: (-15143, -444)
+Waypoint offset: x: 1 y: -16
+
+Ship: (-15144, -428)   (E1)->   Waypoint: (-15142, -444)
+Waypoint offset: x: 2 y: -16
+
+Ship: (-15144, -428)   (S1)->   Waypoint: (-15142, -445)
+Waypoint offset: x: 2 y: -17
+
+Ship: (-15144, -428)   (W5)->   Waypoint: (-15147, -445)
+Waypoint offset: x: -3 y: -17
+
+Ship: (-15144, -428)   (S3)->   Waypoint: (-15147, -448)
+Waypoint offset: x: -3 y: -20
+
+Ship: (-15144, -428)   (E2)->   Waypoint: (-15145, -448)
+Waypoint offset: x: -1 y: -20
+
+Ship: (-15208, -1708)   (F64)->   Waypoint: (-15209, -1728)
+Waypoint offset: x: -1 y: -20
+
+Ship: (-15208, -1708)   (L90)->   Waypoint: (-15188, -1709)
+Waypoint offset: x: 20 y: -1
+
+Ship: (-14628, -1737)   (F29)->   Waypoint: (-14608, -1738)
+Waypoint offset: x: 20 y: -1
+
+Ship: (-14628, -1737)   (S3)->   Waypoint: (-14608, -1741)
+Waypoint offset: x: 20 y: -4
+
+Ship: (-13968, -1869)   (F33)->   Waypoint: (-13948, -1873)
+Waypoint offset: x: 20 y: -4
+
+Ship: (-13048, -2053)   (F46)->   Waypoint: (-13028, -2057)
+Waypoint offset: x: 20 y: -4
+
+Ship: (-13048, -2053)   (S2)->   Waypoint: (-13028, -2059)
+Waypoint offset: x: 20 y: -6
+
+Ship: (-13048, -2053)   (R90)->   Waypoint: (-13054, -2073)
+Waypoint offset: x: -6 y: -20
+
+Ship: (-13048, -2053)   (N4)->   Waypoint: (-13054, -2069)
+Waypoint offset: x: -6 y: -16
+
+Ship: (-13048, -2053)   (E1)->   Waypoint: (-13053, -2069)
+Waypoint offset: x: -5 y: -16
+
+Ship: (-13103, -2229)   (F11)->   Waypoint: (-13108, -2245)
+Waypoint offset: x: -5 y: -16
+
+Ship: (-13353, -3029)   (F50)->   Waypoint: (-13358, -3045)
+Waypoint offset: x: -5 y: -16
+
+Ship: (-13353, -3029)   (L90)->   Waypoint: (-13337, -3034)
+Waypoint offset: x: 16 y: -5
+
+Ship: (-13353, -3029)   (E2)->   Waypoint: (-13335, -3034)
+Waypoint offset: x: 18 y: -5
+
+Ship: (-12057, -3389)   (F72)->   Waypoint: (-12039, -3394)
+Waypoint offset: x: 18 y: -5
+
+Ship: (-12057, -3389)   (L180)->   Waypoint: (-12052, -3371)
+Waypoint offset: x: 5 y: 18
+
+Ship: (-12057, -3389)   (N2)->   Waypoint: (-12052, -3369)
+Waypoint offset: x: 5 y: 20
+
+Ship: (-12057, -3389)   (E4)->   Waypoint: (-12048, -3369)
+Waypoint offset: x: 9 y: 20
+
+Ship: (-12057, -3389)   (N1)->   Waypoint: (-12048, -3368)
+Waypoint offset: x: 9 y: 21
+
+Ship: (-12057, -3389)   (E3)->   Waypoint: (-12045, -3368)
+Waypoint offset: x: 12 y: 21
+
+Ship: (-12057, -3389)   (S1)->   Waypoint: (-12045, -3369)
+Waypoint offset: x: 12 y: 20
+
+Ship: (-11613, -2649)   (F37)->   Waypoint: (-11601, -2629)
+Waypoint offset: x: 12 y: 20
+
+Ship: (-11613, -2649)   (W1)->   Waypoint: (-11602, -2629)
+Waypoint offset: x: 11 y: 20
+
+Ship: (-11613, -2649)   (R90)->   Waypoint: (-11593, -2660)
+Waypoint offset: x: 20 y: -11
+
+Ship: (-11613, -2649)   (N3)->   Waypoint: (-11593, -2657)
+Waypoint offset: x: 20 y: -8
+
+Ship: (-11613, -2649)   (L90)->   Waypoint: (-11605, -2629)
+Waypoint offset: x: 8 y: 20
+
+Ship: (-11613, -2649)   (W3)->   Waypoint: (-11608, -2629)
+Waypoint offset: x: 5 y: 20
+
+Ship: (-11303, -1409)   (F62)->   Waypoint: (-11298, -1389)
+Waypoint offset: x: 5 y: 20
+
+Ship: (-11303, -1409)   (R90)->   Waypoint: (-11283, -1414)
+Waypoint offset: x: 20 y: -5
+
+Ship: (-9543, -1849)   (F88)->   Waypoint: (-9523, -1854)
+Waypoint offset: x: 20 y: -5
+
+Ship: (-9543, -1849)   (W1)->   Waypoint: (-9524, -1854)
+Waypoint offset: x: 19 y: -5
+
+Ship: (-9543, -1849)   (S4)->   Waypoint: (-9524, -1858)
+Waypoint offset: x: 19 y: -9
+
+Ship: (-9543, -1849)   (E3)->   Waypoint: (-9521, -1858)
+Waypoint offset: x: 22 y: -9
+
+Ship: (-9543, -1849)   (L90)->   Waypoint: (-9534, -1827)
+Waypoint offset: x: 9 y: 22
+
+Ship: (-9543, -1849)   (S4)->   Waypoint: (-9534, -1831)
+Waypoint offset: x: 9 y: 18
+
+Ship: (-9543, -1849)   (R90)->   Waypoint: (-9525, -1858)
+Waypoint offset: x: 18 y: -9
+
+Ship: (-9543, -1849)   (E4)->   Waypoint: (-9521, -1858)
+Waypoint offset: x: 22 y: -9
+
+Ship: (-9543, -1849)   (S2)->   Waypoint: (-9521, -1860)
+Waypoint offset: x: 22 y: -11
+
+Ship: (-7761, -2740)   (F81)->   Waypoint: (-7739, -2751)
+Waypoint offset: x: 22 y: -11
+
+Ship: (-7761, -2740)   (W5)->   Waypoint: (-7744, -2751)
+Waypoint offset: x: 17 y: -11
+
+Ship: (-6367, -3642)   (F82)->   Waypoint: (-6350, -3653)
+Waypoint offset: x: 17 y: -11
+
+Ship: (-6367, -3642)   (L90)->   Waypoint: (-6356, -3625)
+Waypoint offset: x: 11 y: 17
+
+Ship: (-6158, -3319)   (F19)->   Waypoint: (-6147, -3302)
+Waypoint offset: x: 11 y: 17
+
+Ship: (-6158, -3319)   (R90)->   Waypoint: (-6141, -3330)
+Waypoint offset: x: 17 y: -11
+
+Ship: (-6158, -3319)   (R270)->   Waypoint: (-6147, -3302)
+Waypoint offset: x: 11 y: 17
+
+Ship: (-6158, -3319)   (E4)->   Waypoint: (-6143, -3302)
+Waypoint offset: x: 15 y: 17
+
+Ship: (-5753, -2860)   (F27)->   Waypoint: (-5738, -2843)
+Waypoint offset: x: 15 y: 17
+
+Ship: (-5753, -2860)   (R90)->   Waypoint: (-5736, -2875)
+Waypoint offset: x: 17 y: -15
+
+Ship: (-5753, -2860)   (N1)->   Waypoint: (-5736, -2874)
+Waypoint offset: x: 17 y: -14
+
+Ship: (-5753, -2860)   (W3)->   Waypoint: (-5739, -2874)
+Waypoint offset: x: 14 y: -14
+
+Ship: (-5753, -2860)   (R90)->   Waypoint: (-5767, -2874)
+Waypoint offset: x: -14 y: -14
+
+Ship: (-5753, -2860)   (W1)->   Waypoint: (-5768, -2874)
+Waypoint offset: x: -15 y: -14
+
+Ship: (-5753, -2860)   (S4)->   Waypoint: (-5768, -2878)
+Waypoint offset: x: -15 y: -18
+
+Ship: (-5753, -2860)   (L90)->   Waypoint: (-5735, -2875)
+Waypoint offset: x: 18 y: -15
+
+Ship: (-5753, -2860)   (W1)->   Waypoint: (-5736, -2875)
+Waypoint offset: x: 17 y: -15
+
+Ship: (-5345, -3220)   (F24)->   Waypoint: (-5328, -3235)
+Waypoint offset: x: 17 y: -15
+
+Ship: (-5345, -3220)   (L180)->   Waypoint: (-5330, -3203)
+Waypoint offset: x: 15 y: 17
+
+Ship: (-5345, -3220)   (R90)->   Waypoint: (-5328, -3235)
+Waypoint offset: x: 17 y: -15
+
+Ship: (-5345, -3220)   (S1)->   Waypoint: (-5328, -3236)
+Waypoint offset: x: 17 y: -16
+
+Ship: (-5345, -3220)   (E3)->   Waypoint: (-5325, -3236)
+Waypoint offset: x: 20 y: -16
+
+Ship: (-5345, -3220)   (S4)->   Waypoint: (-5325, -3240)
+Waypoint offset: x: 20 y: -20
+
+Ship: (-5345, -3220)   (L90)->   Waypoint: (-5325, -3200)
+Waypoint offset: x: 20 y: 20
+
+Ship: (-5345, -3220)   (E3)->   Waypoint: (-5322, -3200)
+Waypoint offset: x: 23 y: 20
+
+Ship: (-3712, -1800)   (F71)->   Waypoint: (-3689, -1780)
+Waypoint offset: x: 23 y: 20
+
+Ship: (-3712, -1800)   (R180)->   Waypoint: (-3735, -1820)
+Waypoint offset: x: -23 y: -20
+
+Ship: (-3712, -1800)   (S1)->   Waypoint: (-3735, -1821)
+Waypoint offset: x: -23 y: -21
+
+Ship: (-4471, -2493)   (F33)->   Waypoint: (-4494, -2514)
+Waypoint offset: x: -23 y: -21
+
+Ship: (-4471, -2493)   (S1)->   Waypoint: (-4494, -2515)
+Waypoint offset: x: -23 y: -22
+
+Ship: (-5598, -3571)   (F49)->   Waypoint: (-5621, -3593)
+Waypoint offset: x: -23 y: -22
+
+Ship: (-5598, -3571)   (S1)->   Waypoint: (-5621, -3594)
+Waypoint offset: x: -23 y: -23
+
+Ship: (-5598, -3571)   (R180)->   Waypoint: (-5575, -3548)
+Waypoint offset: x: 23 y: 23
+
+Ship: (-5598, -3571)   (E4)->   Waypoint: (-5571, -3548)
+Waypoint offset: x: 27 y: 23
+
+Ship: (-5598, -3571)   (L180)->   Waypoint: (-5621, -3544)
+Waypoint offset: x: -23 y: 27
+
+Ship: (-6610, -2383)   (F44)->   Waypoint: (-6633, -2356)
+Waypoint offset: x: -23 y: 27
+
+Ship: (-6610, -2383)   (R90)->   Waypoint: (-6583, -2360)
+Waypoint offset: x: 27 y: 23
+
+Ship: (-6610, -2383)   (W2)->   Waypoint: (-6585, -2360)
+Waypoint offset: x: 25 y: 23
+
+Ship: (-5960, -1785)   (F26)->   Waypoint: (-5935, -1762)
+Waypoint offset: x: 25 y: 23
+
+Ship: (-5960, -1785)   (R90)->   Waypoint: (-5937, -1810)
+Waypoint offset: x: 23 y: -25
+
+Ship: (-5960, -1785)   (L180)->   Waypoint: (-5935, -1762)
+Waypoint offset: x: 25 y: 23
+
+Ship: (-5960, -1785)   (L180)->   Waypoint: (-5983, -1760)
+Waypoint offset: x: -23 y: 25
+
+Ship: (-6673, -1010)   (F31)->   Waypoint: (-6696, -985)
+Waypoint offset: x: -23 y: 25
+
+Ship: (-6673, -1010)   (S3)->   Waypoint: (-6696, -988)
+Waypoint offset: x: -23 y: 22
+
+Ship: (-6673, -1010)   (E4)->   Waypoint: (-6692, -988)
+Waypoint offset: x: -19 y: 22
+
+Ship: (-6673, -1010)   (R90)->   Waypoint: (-6651, -991)
+Waypoint offset: x: 22 y: 19
+
+Ship: (-6673, -1010)   (W1)->   Waypoint: (-6652, -991)
+Waypoint offset: x: 21 y: 19
+
+Ship: (-6673, -1010)   (L90)->   Waypoint: (-6692, -989)
+Waypoint offset: x: -19 y: 21
+
+Ship: (-6673, -1010)   (W1)->   Waypoint: (-6693, -989)
+Waypoint offset: x: -20 y: 21
+
+Ship: (-6673, -1010)   (N5)->   Waypoint: (-6693, -984)
+Waypoint offset: x: -20 y: 26
+
+Ship: (-7173, -360)   (F25)->   Waypoint: (-7193, -334)
+Waypoint offset: x: -20 y: 26
+
+Ship: (-7173, -360)   (N3)->   Waypoint: (-7193, -331)
+Waypoint offset: x: -20 y: 29
+
+Ship: (-7173, -360)   (L180)->   Waypoint: (-7202, -380)
+Waypoint offset: x: -29 y: -20
+
+Ship: (-7289, -440)   (F4)->   Waypoint: (-7318, -460)
+Waypoint offset: x: -29 y: -20
+
+Ship: (-7289, -440)   (N3)->   Waypoint: (-7318, -457)
+Waypoint offset: x: -29 y: -17
+
+Ship: (-7289, -440)   (S5)->   Waypoint: (-7318, -462)
+Waypoint offset: x: -29 y: -22
+
+Ship: (-7289, -440)   (E4)->   Waypoint: (-7314, -462)
+Waypoint offset: x: -25 y: -22
+
+Ship: (-7289, -440)   (R90)->   Waypoint: (-7311, -415)
+Waypoint offset: x: -22 y: 25
+
+Ship: (-7289, -440)   (S2)->   Waypoint: (-7311, -417)
+Waypoint offset: x: -22 y: 23
+
+Ship: (-7289, -440)   (L90)->   Waypoint: (-7312, -462)
+Waypoint offset: x: -23 y: -22
+
+Ship: (-7933, -1056)   (F28)->   Waypoint: (-7956, -1078)
+Waypoint offset: x: -23 y: -22
+
+Ship: (-7933, -1056)   (E4)->   Waypoint: (-7952, -1078)
+Waypoint offset: x: -19 y: -22
+
+Ship: (-7933, -1056)   (N3)->   Waypoint: (-7952, -1075)
+Waypoint offset: x: -19 y: -19
+
+Ship: (-7933, -1056)   (L90)->   Waypoint: (-7914, -1075)
+Waypoint offset: x: 19 y: -19
+
+Ship: (-7933, -1056)   (S1)->   Waypoint: (-7914, -1076)
+Waypoint offset: x: 19 y: -20
+
+Ship: (-7933, -1056)   (R90)->   Waypoint: (-7953, -1075)
+Waypoint offset: x: -20 y: -19
+
+Ship: (-7933, -1056)   (N4)->   Waypoint: (-7953, -1071)
+Waypoint offset: x: -20 y: -15
+
+Ship: (-7933, -1056)   (W1)->   Waypoint: (-7954, -1071)
+Waypoint offset: x: -21 y: -15
+
+Ship: (-7933, -1056)   (N2)->   Waypoint: (-7954, -1069)
+Waypoint offset: x: -21 y: -13
+
+Ship: (-7933, -1056)   (R180)->   Waypoint: (-7912, -1043)
+Waypoint offset: x: 21 y: 13
+
+Ship: (-7933, -1056)   (E4)->   Waypoint: (-7908, -1043)
+Waypoint offset: x: 25 y: 13
+
+Ship: (-7933, -1056)   (L90)->   Waypoint: (-7946, -1031)
+Waypoint offset: x: -13 y: 25
+
+Ship: (-7933, -1056)   (S5)->   Waypoint: (-7946, -1036)
+Waypoint offset: x: -13 y: 20
+
+Ship: (-7933, -1056)   (R180)->   Waypoint: (-7920, -1076)
+Waypoint offset: x: 13 y: -20
+
+Ship: (-7933, -1056)   (S5)->   Waypoint: (-7920, -1081)
+Waypoint offset: x: 13 y: -25
+
+Ship: (-7751, -1406)   (F14)->   Waypoint: (-7738, -1431)
+Waypoint offset: x: 13 y: -25
+
+Ship: (-7751, -1406)   (E3)->   Waypoint: (-7735, -1431)
+Waypoint offset: x: 16 y: -25
+
+Ship: (-7143, -2356)   (F38)->   Waypoint: (-7127, -2381)
+Waypoint offset: x: 16 y: -25
+
+Ship: (-7143, -2356)   (S2)->   Waypoint: (-7127, -2383)
+Waypoint offset: x: 16 y: -27
+
+Ship: (-7127, -2383)   (F1)->   Waypoint: (-7111, -2410)
+Waypoint offset: x: 16 y: -27
+
+Ship: (-7127, -2383)   (E1)->   Waypoint: (-7110, -2410)
+Waypoint offset: x: 17 y: -27
+
+Ship: (-6345, -3625)   (F46)->   Waypoint: (-6328, -3652)
+Waypoint offset: x: 17 y: -27
+
+Ship: (-6345, -3625)   (R270)->   Waypoint: (-6318, -3608)
+Waypoint offset: x: 27 y: 17
+
+Ship: (-4482, -2452)   (F69)->   Waypoint: (-4455, -2435)
+Waypoint offset: x: 27 y: 17
+
+Ship: (-4482, -2452)   (L180)->   Waypoint: (-4499, -2425)
+Waypoint offset: x: -17 y: 27
+
+Ship: (-4482, -2452)   (N1)->   Waypoint: (-4499, -2424)
+Waypoint offset: x: -17 y: 28
+
+Ship: (-4482, -2452)   (R90)->   Waypoint: (-4454, -2435)
+Waypoint offset: x: 28 y: 17
+
+Ship: (-4482, -2452)   (W5)->   Waypoint: (-4459, -2435)
+Waypoint offset: x: 23 y: 17
+
+Ship: (-4482, -2452)   (N4)->   Waypoint: (-4459, -2431)
+Waypoint offset: x: 23 y: 21
+
+Ship: (-3976, -1990)   (F22)->   Waypoint: (-3953, -1969)
+Waypoint offset: x: 23 y: 21
+
+Ship: (-3976, -1990)   (R90)->   Waypoint: (-3955, -2013)
+Waypoint offset: x: 21 y: -23
+
+Ship: (-3976, -1990)   (N1)->   Waypoint: (-3955, -2012)
+Waypoint offset: x: 21 y: -22
+
+Ship: (-3976, -1990)   (L180)->   Waypoint: (-3954, -1969)
+Waypoint offset: x: 22 y: 21
+
+Ship: (-3624, -1654)   (F16)->   Waypoint: (-3602, -1633)
+Waypoint offset: x: 22 y: 21
+
+Ship: (-3624, -1654)   (N2)->   Waypoint: (-3602, -1631)
+Waypoint offset: x: 22 y: 23
+
+Ship: (-3624, -1654)   (E1)->   Waypoint: (-3601, -1631)
+Waypoint offset: x: 23 y: 23
+
+Ship: (-3624, -1654)   (N4)->   Waypoint: (-3601, -1627)
+Waypoint offset: x: 23 y: 27
+
+Ship: (-2060, 182)   (F68)->   Waypoint: (-2037, 209)
+Waypoint offset: x: 23 y: 27
+
+Ship: (-2060, 182)   (L90)->   Waypoint: (-2087, 205)
+Waypoint offset: x: -27 y: 23
+
+Ship: (-2060, 182)   (E2)->   Waypoint: (-2085, 205)
+Waypoint offset: x: -25 y: 23
+
+Ship: (-2210, 320)   (F6)->   Waypoint: (-2235, 343)
+Waypoint offset: x: -25 y: 23
+
+Ship: (-2210, 320)   (E2)->   Waypoint: (-2233, 343)
+Waypoint offset: x: -23 y: 23
+
+Ship: (-2256, 366)   (F2)->   Waypoint: (-2279, 389)
+Waypoint offset: x: -23 y: 23
+
+Ship: (-2256, 366)   (E4)->   Waypoint: (-2275, 389)
+Waypoint offset: x: -19 y: 23
+
+Ship: (-2256, 366)   (R90)->   Waypoint: (-2233, 385)
+Waypoint offset: x: 23 y: 19
+
+Ship: (-2256, 366)   (W4)->   Waypoint: (-2237, 385)
+Waypoint offset: x: 19 y: 19
+
+Ship: (-2256, 366)   (E2)->   Waypoint: (-2235, 385)
+Waypoint offset: x: 21 y: 19
+
+Ship: (-2256, 366)   (R90)->   Waypoint: (-2237, 345)
+Waypoint offset: x: 19 y: -21
+
+Ship: (-2256, 366)   (S1)->   Waypoint: (-2237, 344)
+Waypoint offset: x: 19 y: -22
+
+Ship: (-2256, 366)   (W1)->   Waypoint: (-2238, 344)
+Waypoint offset: x: 18 y: -22
+
+Ship: (-2256, 366)   (S5)->   Waypoint: (-2238, 339)
+Waypoint offset: x: 18 y: -27
+
+Ship: (-690, -1983)   (F87)->   Waypoint: (-672, -2010)
+Waypoint offset: x: 18 y: -27
+
+Ship: (-690, -1983)   (S5)->   Waypoint: (-672, -2015)
+Waypoint offset: x: 18 y: -32
+
+Ship: (-528, -2271)   (F9)->   Waypoint: (-510, -2303)
+Waypoint offset: x: 18 y: -32
+
+Ship: (-528, -2271)   (W5)->   Waypoint: (-515, -2303)
+Waypoint offset: x: 13 y: -32
+
+Ship: (655, -5183)   (F91)->   Waypoint: (668, -5215)
+Waypoint offset: x: 13 y: -32
+
+Ship: (655, -5183)   (L90)->   Waypoint: (687, -5170)
+Waypoint offset: x: 32 y: 13
+
+Ship: (655, -5183)   (S2)->   Waypoint: (687, -5172)
+Waypoint offset: x: 32 y: 11
+
+Ship: (655, -5183)   (R270)->   Waypoint: (644, -5151)
+Waypoint offset: x: -11 y: 32
+
+Ship: (-148, -2847)   (F73)->   Waypoint: (-159, -2815)
+Waypoint offset: x: -11 y: 32
+
+Ship: (-148, -2847)   (L90)->   Waypoint: (-180, -2858)
+Waypoint offset: x: -32 y: -11
+
+Ship: (-692, -3034)   (F17)->   Waypoint: (-724, -3045)
+Waypoint offset: x: -32 y: -11
+
+Ship: (-692, -3034)   (L90)->   Waypoint: (-681, -3066)
+Waypoint offset: x: 11 y: -32
+
+Ship: (-692, -3034)   (E4)->   Waypoint: (-677, -3066)
+Waypoint offset: x: 15 y: -32
+
+Ship: (-692, -3034)   (W1)->   Waypoint: (-678, -3066)
+Waypoint offset: x: 14 y: -32
+
+Ship: (-692, -3034)   (R90)->   Waypoint: (-724, -3048)
+Waypoint offset: x: -32 y: -14
+
+Ship: (-1972, -3594)   (F40)->   Waypoint: (-2004, -3608)
+Waypoint offset: x: -32 y: -14
+
+Ship: (-1972, -3594)   (E5)->   Waypoint: (-1999, -3608)
+Waypoint offset: x: -27 y: -14
+
+Ship: (-2161, -3692)   (F7)->   Waypoint: (-2188, -3706)
+Waypoint offset: x: -27 y: -14
+
+Ship: (-2161, -3692)   (R180)->   Waypoint: (-2134, -3678)
+Waypoint offset: x: 27 y: 14
+
+Ship: (-2161, -3692)   (R90)->   Waypoint: (-2147, -3719)
+Waypoint offset: x: 14 y: -27
+
+Ship: (-2161, -3692)   (R180)->   Waypoint: (-2175, -3665)
+Waypoint offset: x: -14 y: 27
+
+Ship: (-2161, -3692)   (E5)->   Waypoint: (-2170, -3665)
+Waypoint offset: x: -9 y: 27
+
+Ship: (-2962, -1289)   (F89)->   Waypoint: (-2971, -1262)
+Waypoint offset: x: -9 y: 27
+
+Ship: (-2962, -1289)   (R180)->   Waypoint: (-2953, -1316)
+Waypoint offset: x: 9 y: -27
+
+Ship: (-2962, -1289)   (W2)->   Waypoint: (-2955, -1316)
+Waypoint offset: x: 7 y: -27
+
+Ship: (-2962, -1289)   (L180)->   Waypoint: (-2935, -1282)
+Waypoint offset: x: 27 y: 7
+
+Ship: (-2125, -1072)   (F31)->   Waypoint: (-2098, -1065)
+Waypoint offset: x: 27 y: 7
+
+Ship: (-2125, -1072)   (E2)->   Waypoint: (-2096, -1065)
+Waypoint offset: x: 29 y: 7
+
+Ship: (-2125, -1072)   (S1)->   Waypoint: (-2096, -1066)
+Waypoint offset: x: 29 y: 6
+
+Ship: (-2125, -1072)   (W2)->   Waypoint: (-2098, -1066)
+Waypoint offset: x: 27 y: 6
+
+Ship: (-1828, -1006)   (F11)->   Waypoint: (-1801, -1000)
+Waypoint offset: x: 27 y: 6
+
+Ship: (-1828, -1006)   (L180)->   Waypoint: (-1834, -979)
+Waypoint offset: x: -6 y: 27
+
+Ship: (-1828, -1006)   (E1)->   Waypoint: (-1833, -979)
+Waypoint offset: x: -5 y: 27
+
+Ship: (-2103, 479)   (F55)->   Waypoint: (-2108, 506)
+Waypoint offset: x: -5 y: 27
+
+Ship: (-2103, 479)   (E5)->   Waypoint: (-2103, 506)
+Waypoint offset: x: 0 y: 27
+
+Ship: (-2103, 479)   (S4)->   Waypoint: (-2103, 502)
+Waypoint offset: x: 0 y: 23
+
+Ship: (-2103, 479)   (L90)->   Waypoint: (-2126, 479)
+Waypoint offset: x: -23 y: 0
+
+Ship: (-2103, 479)   (S5)->   Waypoint: (-2126, 474)
+Waypoint offset: x: -23 y: -5
+
+Ship: (-2103, 479)   (W4)->   Waypoint: (-2130, 474)
+Waypoint offset: x: -27 y: -5
+
+Ship: (-2103, 479)   (R180)->   Waypoint: (-2076, 484)
+Waypoint offset: x: 27 y: 5
+
+Ship: (-1482, 594)   (F23)->   Waypoint: (-1455, 599)
+Waypoint offset: x: 27 y: 5
+
+Ship: (-1482, 594)   (E3)->   Waypoint: (-1452, 599)
+Waypoint offset: x: 30 y: 5
+
+Ship: (-1482, 594)   (R90)->   Waypoint: (-1477, 564)
+Waypoint offset: x: 5 y: -30
+
+Ship: (-1422, 234)   (F12)->   Waypoint: (-1417, 204)
+Waypoint offset: x: 5 y: -30
+
+Ship: (-1422, 234)   (E3)->   Waypoint: (-1414, 204)
+Waypoint offset: x: 8 y: -30
+
+Ship: (-1398, 144)   (F3)->   Waypoint: (-1390, 114)
+Waypoint offset: x: 8 y: -30
+
+Ship: (-1398, 144)   (S3)->   Waypoint: (-1390, 111)
+Waypoint offset: x: 8 y: -33
+
+Ship: (-1398, 144)   (W3)->   Waypoint: (-1393, 111)
+Waypoint offset: x: 5 y: -33
+
+Ship: (-1398, 144)   (L90)->   Waypoint: (-1365, 149)
+Waypoint offset: x: 33 y: 5
+
+Ship: (-1398, 144)   (W2)->   Waypoint: (-1367, 149)
+Waypoint offset: x: 31 y: 5
+
+Ship: (-1398, 144)   (N5)->   Waypoint: (-1367, 154)
+Waypoint offset: x: 31 y: 10
+
+Ship: (-1398, 144)   (E2)->   Waypoint: (-1365, 154)
+Waypoint offset: x: 33 y: 10
+
+Ship: (1143, 914)   (F77)->   Waypoint: (1176, 924)
+Waypoint offset: x: 33 y: 10
+
+Ship: (1143, 914)   (E4)->   Waypoint: (1180, 924)
+Waypoint offset: x: 37 y: 10
+
+Ship: (1143, 914)   (S3)->   Waypoint: (1180, 921)
+Waypoint offset: x: 37 y: 7
+
+Ship: (1550, 991)   (F11)->   Waypoint: (1587, 998)
+Waypoint offset: x: 37 y: 7
+
+Ship: (1550, 991)   (W4)->   Waypoint: (1583, 998)
+Waypoint offset: x: 33 y: 7
+
+Ship: (2309, 1152)   (F23)->   Waypoint: (2342, 1159)
+Waypoint offset: x: 33 y: 7
+
+Ship: (2309, 1152)   (E1)->   Waypoint: (2343, 1159)
+Waypoint offset: x: 34 y: 7
+
+Ship: (2309, 1152)   (R90)->   Waypoint: (2316, 1118)
+Waypoint offset: x: 7 y: -34
+
+Ship: (2736, -922)   (F61)->   Waypoint: (2743, -956)
+Waypoint offset: x: 7 y: -34
+
+Ship: (2736, -922)   (E3)->   Waypoint: (2746, -956)
+Waypoint offset: x: 10 y: -34
+
+Ship: (2736, -922)   (L90)->   Waypoint: (2770, -912)
+Waypoint offset: x: 34 y: 10
+
+Ship: (2736, -922)   (S3)->   Waypoint: (2770, -915)
+Waypoint offset: x: 34 y: 7
+
+Ship: (2736, -922)   (N5)->   Waypoint: (2770, -910)
+Waypoint offset: x: 34 y: 12
+
+Ship: (2736, -922)   (W2)->   Waypoint: (2768, -910)
+Waypoint offset: x: 32 y: 12
+
+Ship: (2736, -922)   (R180)->   Waypoint: (2704, -934)
+Waypoint offset: x: -32 y: -12
+
+Ship: (2736, -922)   (W2)->   Waypoint: (2702, -934)
+Waypoint offset: x: -34 y: -12
+
+Ship: (2736, -922)   (S2)->   Waypoint: (2702, -936)
+Waypoint offset: x: -34 y: -14
+
+Ship: (2736, -922)   (N5)->   Waypoint: (2702, -931)
+Waypoint offset: x: -34 y: -9
+
+Ship: (2736, -922)   (E1)->   Waypoint: (2703, -931)
+Waypoint offset: x: -33 y: -9
+
+Ship: (2736, -922)   (S2)->   Waypoint: (2703, -933)
+Waypoint offset: x: -33 y: -11
+
+Ship: (2736, -922)   (L90)->   Waypoint: (2747, -955)
+Waypoint offset: x: 11 y: -33
+
+Ship: (2736, -922)   (W3)->   Waypoint: (2744, -955)
+Waypoint offset: x: 8 y: -33
+
+Ship: (2736, -922)   (R90)->   Waypoint: (2703, -930)
+Waypoint offset: x: -33 y: -8
+
+Ship: (-201, -1634)   (F89)->   Waypoint: (-234, -1642)
+Waypoint offset: x: -33 y: -8
+
+Ship: (-201, -1634)   (R270)->   Waypoint: (-193, -1667)
+Waypoint offset: x: 8 y: -33
+
+Ship: (-201, -1634)   (N3)->   Waypoint: (-193, -1664)
+Waypoint offset: x: 8 y: -30
+
+Ship: (-201, -1634)   (L90)->   Waypoint: (-171, -1626)
+Waypoint offset: x: 30 y: 8
+
+Ship: (-201, -1634)   (R90)->   Waypoint: (-193, -1664)
+Waypoint offset: x: 8 y: -30
+
+Ship: (-201, -1634)   (W4)->   Waypoint: (-197, -1664)
+Waypoint offset: x: 4 y: -30
+
+Ship: (-201, -1634)   (S2)->   Waypoint: (-197, -1666)
+Waypoint offset: x: 4 y: -32
+
+Ship: (-201, -1634)   (W4)->   Waypoint: (-201, -1666)
+Waypoint offset: x: 0 y: -32
+
+Ship: (-201, -1634)   (L90)->   Waypoint: (-169, -1634)
+Waypoint offset: x: 32 y: 0
+
+Ship: (-201, -1634)   (S1)->   Waypoint: (-169, -1635)
+Waypoint offset: x: 32 y: -1
+
+Ship: (-201, -1634)   (E4)->   Waypoint: (-165, -1635)
+Waypoint offset: x: 36 y: -1
+
+Ship: (-201, -1634)   (E4)->   Waypoint: (-161, -1635)
+Waypoint offset: x: 40 y: -1
+
+Ship: (-201, -1634)   (S3)->   Waypoint: (-161, -1638)
+Waypoint offset: x: 40 y: -4
+
+Ship: (-201, -1634)   (R270)->   Waypoint: (-197, -1594)
+Waypoint offset: x: 4 y: 40
+
+Ship: (-13, 246)   (F47)->   Waypoint: (-9, 286)
+Waypoint offset: x: 4 y: 40
+
+Ship: (-13, 246)   (L90)->   Waypoint: (-53, 250)
+Waypoint offset: x: -40 y: 4
+
+Ship: (-13, 246)   (E1)->   Waypoint: (-52, 250)
+Waypoint offset: x: -39 y: 4
+
+Ship: (-403, 286)   (F10)->   Waypoint: (-442, 290)
+Waypoint offset: x: -39 y: 4
+
+Ship: (-403, 286)   (L180)->   Waypoint: (-407, 247)
+Waypoint offset: x: -4 y: -39
+
+Ship: (-403, 286)   (W4)->   Waypoint: (-411, 247)
+Waypoint offset: x: -8 y: -39
+
+Ship: (-403, 286)   (R90)->   Waypoint: (-442, 294)
+Waypoint offset: x: -39 y: 8
+
+Ship: (-403, 286)   (N2)->   Waypoint: (-442, 296)
+Waypoint offset: x: -39 y: 10
+
+Ship: (-4186, 1256)   (F97)->   Waypoint: (-4225, 1266)
+Waypoint offset: x: -39 y: 10
+
+Ship: (-4186, 1256)   (L180)->   Waypoint: (-4196, 1217)
+Waypoint offset: x: -10 y: -39
+
+Ship: (-5006, -1942)   (F82)->   Waypoint: (-5016, -1981)
+Waypoint offset: x: -10 y: -39
+
+Ship: (-5006, -1942)   (N5)->   Waypoint: (-5016, -1976)
+Waypoint offset: x: -10 y: -34
+
+Ship: (-5006, -1942)   (L90)->   Waypoint: (-4972, -1952)
+Waypoint offset: x: 34 y: -10
+
+Ship: (-5006, -1942)   (S1)->   Waypoint: (-4972, -1953)
+Waypoint offset: x: 34 y: -11
+
+Ship: (-5006, -1942)   (E3)->   Waypoint: (-4969, -1953)
+Waypoint offset: x: 37 y: -11
+
+Ship: (-4488, -2096)   (F14)->   Waypoint: (-4451, -2107)
+Waypoint offset: x: 37 y: -11
+
+Ship: (-4488, -2096)   (R90)->   Waypoint: (-4499, -2133)
+Waypoint offset: x: -11 y: -37
+
+Ship: (-4741, -2947)   (F23)->   Waypoint: (-4752, -2984)
+Waypoint offset: x: -11 y: -37
+
+Ship: (-4741, -2947)   (N2)->   Waypoint: (-4752, -2982)
+Waypoint offset: x: -11 y: -35
+
+Ship: (-5115, -4137)   (F34)->   Waypoint: (-5126, -4172)
+Waypoint offset: x: -11 y: -35
+
+Ship: (-5115, -4137)   (L270)->   Waypoint: (-5080, -4148)
+Waypoint offset: x: 35 y: -11
+
+Ship: (-5115, -4137)   (E2)->   Waypoint: (-5078, -4148)
+Waypoint offset: x: 37 y: -11
+
+Ship: (-2266, -4984)   (F77)->   Waypoint: (-2229, -4995)
+Waypoint offset: x: 37 y: -11
+
+Ship: (-2266, -4984)   (E5)->   Waypoint: (-2224, -4995)
+Waypoint offset: x: 42 y: -11
+
+Ship: (-2266, -4984)   (L90)->   Waypoint: (-2255, -4942)
+Waypoint offset: x: 11 y: 42
+
+Ship: (-2266, -4984)   (S3)->   Waypoint: (-2255, -4945)
+Waypoint offset: x: 11 y: 39
+
+Ship: (-2266, -4984)   (R270)->   Waypoint: (-2305, -4973)
+Waypoint offset: x: -39 y: 11
+
+Ship: (-2734, -4852)   (F12)->   Waypoint: (-2773, -4841)
+Waypoint offset: x: -39 y: 11
+
+Ship: (-2734, -4852)   (N1)->   Waypoint: (-2773, -4840)
+Waypoint offset: x: -39 y: 12
+
+Ship: (-2734, -4852)   (E3)->   Waypoint: (-2770, -4840)
+Waypoint offset: x: -36 y: 12
+
+Ship: (-2734, -4852)   (R90)->   Waypoint: (-2722, -4816)
+Waypoint offset: x: 12 y: 36
+
+Ship: (-2734, -4852)   (E2)->   Waypoint: (-2720, -4816)
+Waypoint offset: x: 14 y: 36
+
+Ship: (-2678, -4708)   (F4)->   Waypoint: (-2664, -4672)
+Waypoint offset: x: 14 y: 36
+
+Ship: (-2678, -4708)   (W3)->   Waypoint: (-2667, -4672)
+Waypoint offset: x: 11 y: 36
+
+Ship: (-2678, -4708)   (E3)->   Waypoint: (-2664, -4672)
+Waypoint offset: x: 14 y: 36
+
+Ship: (-2216, -3520)   (F33)->   Waypoint: (-2202, -3484)
+Waypoint offset: x: 14 y: 36
+
+Ship: (-2216, -3520)   (S4)->   Waypoint: (-2202, -3488)
+Waypoint offset: x: 14 y: 32
+
+Ship: (-2216, -3520)   (R180)->   Waypoint: (-2230, -3552)
+Waypoint offset: x: -14 y: -32
+
+Ship: (-2216, -3520)   (S5)->   Waypoint: (-2230, -3557)
+Waypoint offset: x: -14 y: -37
+
+Ship: (-2216, -3520)   (R90)->   Waypoint: (-2253, -3506)
+Waypoint offset: x: -37 y: 14
+
+Ship: (-2216, -3520)   (E1)->   Waypoint: (-2252, -3506)
+Waypoint offset: x: -36 y: 14
+
+Ship: (-2216, -3520)   (R270)->   Waypoint: (-2230, -3556)
+Waypoint offset: x: -14 y: -36
+
+Ship: (-2958, -5428)   (F53)->   Waypoint: (-2972, -5464)
+Waypoint offset: x: -14 y: -36
+
+Ship: (-2958, -5428)   (N4)->   Waypoint: (-2972, -5460)
+Waypoint offset: x: -14 y: -32
+
+Ship: (-2958, -5428)   (L90)->   Waypoint: (-2926, -5442)
+Waypoint offset: x: 32 y: -14
+
+Ship: (-2958, -5428)   (N1)->   Waypoint: (-2926, -5441)
+Waypoint offset: x: 32 y: -13
+
+Ship: (-2958, -5428)   (W2)->   Waypoint: (-2928, -5441)
+Waypoint offset: x: 30 y: -13
+
+Ship: (-2958, -5428)   (S5)->   Waypoint: (-2928, -5446)
+Waypoint offset: x: 30 y: -18
+
+Ship: (-2958, -5428)   (E2)->   Waypoint: (-2926, -5446)
+Waypoint offset: x: 32 y: -18
+
+Ship: (-2958, -5428)   (R180)->   Waypoint: (-2990, -5410)
+Waypoint offset: x: -32 y: 18
+
+Ship: (-2958, -5428)   (W2)->   Waypoint: (-2992, -5410)
+Waypoint offset: x: -34 y: 18
+
+Ship: (-2958, -5428)   (S3)->   Waypoint: (-2992, -5413)
+Waypoint offset: x: -34 y: 15
+
+Ship: (-2958, -5428)   (L90)->   Waypoint: (-2973, -5462)
+Waypoint offset: x: -15 y: -34
+
+Ship: (-2958, -5428)   (N4)->   Waypoint: (-2973, -5458)
+Waypoint offset: x: -15 y: -30
+
+Ship: (-2958, -5428)   (W3)->   Waypoint: (-2976, -5458)
+Waypoint offset: x: -18 y: -30
+
+Ship: (-2958, -5428)   (N3)->   Waypoint: (-2976, -5455)
+Waypoint offset: x: -18 y: -27
+
+Ship: (-4470, -7696)   (F84)->   Waypoint: (-4488, -7723)
+Waypoint offset: x: -18 y: -27
+
+Ship: (-4470, -7696)   (E5)->   Waypoint: (-4483, -7723)
+Waypoint offset: x: -13 y: -27
+
+Ship: (-4470, -7696)   (N3)->   Waypoint: (-4483, -7720)
+Waypoint offset: x: -13 y: -24
+
+Ship: (-4470, -7696)   (L90)->   Waypoint: (-4446, -7709)
+Waypoint offset: x: 24 y: -13
+
+Ship: (-3318, -8320)   (F48)->   Waypoint: (-3294, -8333)
+Waypoint offset: x: 24 y: -13
+
+Ship: (-3318, -8320)   (W4)->   Waypoint: (-3298, -8333)
+Waypoint offset: x: 20 y: -13
+
+Ship: (-2958, -8554)   (F18)->   Waypoint: (-2938, -8567)
+Waypoint offset: x: 20 y: -13
+
+Ship: (-2958, -8554)   (L90)->   Waypoint: (-2945, -8534)
+Waypoint offset: x: 13 y: 20
+
+Ship: (-2958, -8554)   (W3)->   Waypoint: (-2948, -8534)
+Waypoint offset: x: 10 y: 20
+
+Ship: (-2958, -8554)   (S4)->   Waypoint: (-2948, -8538)
+Waypoint offset: x: 10 y: 16
+
+Ship: (-2958, -8554)   (E2)->   Waypoint: (-2946, -8538)
+Waypoint offset: x: 12 y: 16
+
+Ship: (-2958, -8554)   (S4)->   Waypoint: (-2946, -8542)
+Waypoint offset: x: 12 y: 12
+
+Ship: (-2190, -7786)   (F64)->   Waypoint: (-2178, -7774)
+Waypoint offset: x: 12 y: 12
+
+Ship: (-2190, -7786)   (N1)->   Waypoint: (-2178, -7773)
+Waypoint offset: x: 12 y: 13
+
+Ship: (-1038, -6538)   (F96)->   Waypoint: (-1026, -6525)
+Waypoint offset: x: 12 y: 13
+
+Ship: (-1038, -6538)   (S3)->   Waypoint: (-1026, -6528)
+Waypoint offset: x: 12 y: 10
+
+Ship: (-1038, -6538)   (E5)->   Waypoint: (-1021, -6528)
+Waypoint offset: x: 17 y: 10
+
+Ship: (-1038, -6538)   (N4)->   Waypoint: (-1021, -6524)
+Waypoint offset: x: 17 y: 14
+
+Ship: (-1038, -6538)   (W2)->   Waypoint: (-1023, -6524)
+Waypoint offset: x: 15 y: 14
+
+Ship: (-708, -6230)   (F22)->   Waypoint: (-693, -6216)
+Waypoint offset: x: 15 y: 14
+
+Ship: (-708, -6230)   (W5)->   Waypoint: (-698, -6216)
+Waypoint offset: x: 10 y: 14
+
+Ship: (-708, -6230)   (L90)->   Waypoint: (-722, -6220)
+Waypoint offset: x: -14 y: 10
+
+Ship: (-1030, -6000)   (F23)->   Waypoint: (-1044, -5990)
+Waypoint offset: x: -14 y: 10
+
+Ship: (-1030, -6000)   (E2)->   Waypoint: (-1042, -5990)
+Waypoint offset: x: -12 y: 10
+
+Ship: (-1030, -6000)   (N1)->   Waypoint: (-1042, -5989)
+Waypoint offset: x: -12 y: 11
+
+Ship: (-2134, -4988)   (F92)->   Waypoint: (-2146, -4977)
+Waypoint offset: x: -12 y: 11
+
+Ship: (-2326, -4812)   (F16)->   Waypoint: (-2338, -4801)
+Waypoint offset: x: -12 y: 11
+
+Ship: (-2326, -4812)   (L180)->   Waypoint: (-2337, -4824)
+Waypoint offset: x: -11 y: -12
+
+Ship: (-2326, -4812)   (E4)->   Waypoint: (-2333, -4824)
+Waypoint offset: x: -7 y: -12
+
+Ship: (-2326, -4812)   (N1)->   Waypoint: (-2333, -4823)
+Waypoint offset: x: -7 y: -11
+
+Ship: (-2851, -5637)   (F75)->   Waypoint: (-2858, -5648)
+Waypoint offset: x: -7 y: -11
+
+Ship: (-2851, -5637)   (L90)->   Waypoint: (-2840, -5644)
+Waypoint offset: x: 11 y: -7
+
+Ship: (-2851, -5637)   (W4)->   Waypoint: (-2844, -5644)
+Waypoint offset: x: 7 y: -7
+
+Ship: (-2851, -5637)   (L270)->   Waypoint: (-2844, -5630)
+Waypoint offset: x: 7 y: 7
+
+Ship: (-2851, -5637)   (W3)->   Waypoint: (-2847, -5630)
+Waypoint offset: x: 4 y: 7
+
+Ship: (-2851, -5637)   (S4)->   Waypoint: (-2847, -5634)
+Waypoint offset: x: 4 y: 3
+
+Ship: (-2851, -5637)   (L90)->   Waypoint: (-2854, -5633)
+Waypoint offset: x: -3 y: 4
+
+Ship: (-2938, -5521)   (F29)->   Waypoint: (-2941, -5517)
+Waypoint offset: x: -3 y: 4
+
+Ship: (-2938, -5521)   (W4)->   Waypoint: (-2945, -5517)
+Waypoint offset: x: -7 y: 4
+
+Ship: (-2938, -5521)   (S2)->   Waypoint: (-2945, -5519)
+Waypoint offset: x: -7 y: 2
+
+Ship: (-3267, -5427)   (F47)->   Waypoint: (-3274, -5425)
+Waypoint offset: x: -7 y: 2
+
+Ship: (-3267, -5427)   (R90)->   Waypoint: (-3265, -5420)
+Waypoint offset: x: 2 y: 7
+
+Ship: (-3267, -5427)   (N3)->   Waypoint: (-3265, -5417)
+Waypoint offset: x: 2 y: 10
+
+Ship: (-3267, -5427)   (L90)->   Waypoint: (-3277, -5425)
+Waypoint offset: x: -10 y: 2
+
+Ship: (-3267, -5427)   (S3)->   Waypoint: (-3277, -5428)
+Waypoint offset: x: -10 y: -1
+
+Ship: (-3267, -5427)   (W3)->   Waypoint: (-3280, -5428)
+Waypoint offset: x: -13 y: -1
+
+Ship: (-3267, -5427)   (N1)->   Waypoint: (-3280, -5427)
+Waypoint offset: x: -13 y: 0
+
+Ship: (-3852, -5427)   (F45)->   Waypoint: (-3865, -5427)
+Waypoint offset: x: -13 y: 0
+
+Ship: (-3852, -5427)   (N2)->   Waypoint: (-3865, -5425)
+Waypoint offset: x: -13 y: 2
+
+Ship: (-3852, -5427)   (L90)->   Waypoint: (-3854, -5440)
+Waypoint offset: x: -2 y: -13
+
+Ship: (-3852, -5427)   (E4)->   Waypoint: (-3850, -5440)
+Waypoint offset: x: 2 y: -13
+
+Ship: (-3852, -5427)   (N1)->   Waypoint: (-3850, -5439)
+Waypoint offset: x: 2 y: -12
+
+Ship: (-3852, -5427)   (L90)->   Waypoint: (-3840, -5425)
+Waypoint offset: x: 12 y: 2
+
+Ship: (-3852, -5427)   (E3)->   Waypoint: (-3837, -5425)
+Waypoint offset: x: 15 y: 2
+
+Ship: (-3852, -5427)   (R90)->   Waypoint: (-3850, -5442)
+Waypoint offset: x: 2 y: -15
+
+Ship: (-3852, -5427)   (N3)->   Waypoint: (-3850, -5439)
+Waypoint offset: x: 2 y: -12
+
+Ship: (-3680, -6459)   (F86)->   Waypoint: (-3678, -6471)
+Waypoint offset: x: 2 y: -12
+
+Ship: (-3680, -6459)   (W1)->   Waypoint: (-3679, -6471)
+Waypoint offset: x: 1 y: -12
+
+Ship: (-3680, -6459)   (N5)->   Waypoint: (-3679, -6466)
+Waypoint offset: x: 1 y: -7
+
+Ship: (-3680, -6459)   (W3)->   Waypoint: (-3682, -6466)
+Waypoint offset: x: -2 y: -7
+
+Ship: (-3680, -6459)   (S5)->   Waypoint: (-3682, -6471)
+Waypoint offset: x: -2 y: -12
+
+Ship: (-3680, -6459)   (L90)->   Waypoint: (-3668, -6461)
+Waypoint offset: x: 12 y: -2
+
+Ship: (-3680, -6459)   (S4)->   Waypoint: (-3668, -6465)
+Waypoint offset: x: 12 y: -6
+
+Ship: (-3680, -6459)   (W2)->   Waypoint: (-3670, -6465)
+Waypoint offset: x: 10 y: -6
+
+Ship: (-3240, -6723)   (F44)->   Waypoint: (-3230, -6729)
+Waypoint offset: x: 10 y: -6
+
+Day 12 Part 1: 1533
+Day 12 Part 2: 9963
