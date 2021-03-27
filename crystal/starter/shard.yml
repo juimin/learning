@@ -1,0 +1,13 @@
+name: starter
+version: 0.1.0
+
+authors:
+  - JuiMin <d95wang@gmail.com>
+
+targets:
+  starter:
+    main: src/starter.cr
+
+crystal: 1.0.0
+
+license: MIT
