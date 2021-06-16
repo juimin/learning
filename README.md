@@ -1,6 +1,14 @@
 # learning
 Learning about different languages
 
+## School
+
+Coursework Completed at the University of Washington
+
+## AIND
+
+Coursework as part of the Udacity Artificial Intelligence Nanodegree
+
 ## Advent of Code
 
 The advent2020 package contains a CLI used to running advent of code 2020 challenges
