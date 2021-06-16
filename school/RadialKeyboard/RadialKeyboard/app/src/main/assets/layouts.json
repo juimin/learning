@@ -1,0 +1,139 @@
+{
+  "layouts": {
+    "alphabet": {
+      "small_button_visible": true,
+      "button_one": [
+        "e",
+        "c",
+        "u"
+      ],
+      "button_two": [
+        "a",
+        "d",
+        "p"
+      ],
+      "button_three": [
+        "r",
+        "m",
+        "h"
+      ],
+      "button_four": [
+        "i",
+        "g",
+        "b"
+      ],
+      "button_five": [
+        "o",
+        "f",
+        "y"
+      ],
+      "button_six": [
+        "t",
+        "w",
+        "k"
+      ],
+      "button_seven": [
+        "n",
+        "v",
+        "x"
+      ],
+      "button_eight": [
+        "s",
+        "z",
+        "j"
+      ],
+      "button_nine": [
+        "l",
+        "q",
+        "."
+      ],
+      "button_center": [
+        ""
+      ]
+    },
+    "symbols": {
+      "small_button_visible": true,
+      "button_one": [
+        "!",
+        "+",
+        "="
+      ],
+      "button_two": [
+        "@",
+        "-",
+        "_"
+      ],
+      "button_three": [
+        "#",
+        "[",
+        "]"
+      ],
+      "button_four": [
+        "$",
+        "{",
+        "}"
+      ],
+      "button_five": [
+        ".",
+        "%",
+        "\\"
+      ],
+      "button_six": [
+        "^",
+        ":",
+        ";"
+      ],
+      "button_seven": [
+        "&",
+        "\"",
+        "'"
+      ],
+      "button_eight": [
+        "*",
+        "/",
+        "?"
+      ],
+      "button_nine": [
+        ")",
+        "(",
+        ","
+      ],
+      "button_center": [
+        ""
+      ]
+    },
+    "numbers": {
+      "small_button_visible": false,
+      "button_one": [
+        "1"
+      ],
+      "button_two": [
+        "2"
+      ],
+      "button_three": [
+        "3"
+      ],
+      "button_four": [
+        "4"
+      ],
+      "button_five": [
+        "5"
+      ],
+      "button_six": [
+        "6"
+      ],
+      "button_seven": [
+        "7"
+      ],
+      "button_eight": [
+        "8"
+      ],
+      "button_nine": [
+        "9"
+      ],
+      "button_center": [
+        "0"
+      ]
+    }
+  }
+}
