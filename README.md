@@ -1,5 +1,6 @@
 # learning
-Learning about different languages
+
+A combination of starter projects for various topics and an archive of various coursework done throughout life.
 
 ## School
 
