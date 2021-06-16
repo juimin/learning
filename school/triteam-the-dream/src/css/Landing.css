@@ -1,0 +1,32 @@
+.landing h1 {
+    font-family:sans-serif;
+    font-weight:100;
+    text-align: center;
+    /*margin-top:40vh;*/
+    margin: 0 auto;
+    padding: 0;
+}
+
+.map {
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 80vw;
+	height: 80vh;
+	font-family: courier;
+    margin-bottom: 0px;
+}
+
+#title {
+    font-variant: small-caps;
+    font-family: 'Quattrocento Sans', sans-serif;
+
+}
+
+#authors {
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h5 {
+    margin-top: 5px;
+}

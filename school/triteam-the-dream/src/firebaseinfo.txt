@@ -1,0 +1,13 @@
+//this is a file containing info on the firebase so i dont have to check online
+
+//var firebase = require('firebase');
+import * as firebase from 'firebase';
+//var maps_key = 'AIzaSyCLia2sil-gbDo9sow_dlQYdizk-ojLsTA'
+
+firebase.initializeApp({
+	apiKey: "AIzaSyCrw8WlGS_6NxXsIoB229iMMWKTZpah-9g",
+	authDomain: "triteam-the-dream.firebaseapp.com",
+	databaseURL: "https://triteam-the-dream.firebaseio.com",
+	storageBucket: "triteam-the-dream.appspot.com",
+	messagingSenderId: "71185150003"
+});

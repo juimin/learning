@@ -1,0 +1,39 @@
+.children {
+    margin:1%;
+    
+}
+.navbar {
+    border-bottom:1px solid #d3d3d3;
+    height:15px;
+    padding-top:0px;
+    padding-bottom: 15px;
+    padding-left:20px;
+}
+
+a.link {
+    color:black;
+    text-decoration:none;
+    margin-right: 50px;
+    opacity:.4;
+}
+
+a.link.active {
+    opacity:1;
+}
+
+a > i {
+    opacity:1;
+}
+
+.link:hover {
+  display: inline-block;
+  -webkit-transform: scale(1.2);
+}
+
+.navbar {
+  margin-top: 15px;
+}
+
+#infoicon {
+    float: right;
+}

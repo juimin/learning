@@ -1,0 +1,45 @@
+---
+title: "Info 498F"
+output: html_document
+---
+
+```{r, echo=FALSE, message=FALSE}
+# require packages
+library(dplyr)
+library(plotly)
+
+# set working directory
+setwd("/Users/Potato/Documents/info498/a7-collaborative-coding-teamhw")
+
+# attach script files
+source("scripts/summary-info.R")
+source("scripts/Chart1.R")
+source("scripts/Chart2.R")
+
+# read in data
+df <- read.csv("data/intro_survey_data.csv")
+
+# implement methods
+macs <- mac_user(df)
+
+info <- informatics_applicant(df)
+
+newbies <- never_used_r(df)
+
+```
+
+Hello, welcome to Info 498F, an experimental class in the Informatics department! There are all sorts of students enrolled in this class. `r info` `r macs` `r newbies`
+
+Here is a histogram reflecting how many countries the students in this class have visited:
+
+```{r, echo=FALSE, message=FALSE}
+# create histagram
+invisible(map(df))
+```
+
+Here is a chart reflecting the breakdown of students and how many countries they have visited by grade:
+
+```{r, echo=FALSE, message=FALSE}
+# create boxplot chart
+chart2(df)
+```

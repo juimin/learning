@@ -1,0 +1,38 @@
+---
+title: "Exercise 3"
+output: html_document
+---
+
+
+```{r, echo=FALSE}
+library(jsonlite)
+# Create a variable of your API key
+
+
+# Store the name of your band in a variable
+
+
+# Creat another variable that replaces your spaces with +'s (hint: gsub)
+
+
+# Write a query to get the first biography of your band on echonest
+# See: http://developer.echonest.com/docs/v4/artist.html#biographies
+
+# Use the fromJSON command to retrieve your data, and store the text of the first biography in a variable
+
+
+# Run another query to get band images: see: http://developer.echonest.com/docs/v4/artist.html#images
+### Warning: you may get an error message if the image is not available -- check online that it exists!
+
+# Use the fromJSON command to retrieve your data, and store the url of the first image in a variable
+
+
+# Outside of this code section, write the (R)Markdown syntax that:
+# - States the name of your band
+# - Displays the bio you just retrieved 
+# - Shows the image of your band
+
+### Bonus ###
+# Make another request, and retrieve/display the band's top songs
+# Wrap the above steps in a function that takes a band as a parameter, and returns the desired info
+```

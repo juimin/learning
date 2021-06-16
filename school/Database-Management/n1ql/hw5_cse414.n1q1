@@ -1,0 +1,130 @@
+/*
+	Derek Wang - 1332178
+	CSE 414 Databases
+	HW 5
+*/
+
+/*
+	Q1.
+	Retrieve all the names of all cities located in Peru, sorted alphabetically.
+
+	Outputs 30 Rows
+*/
+
+SELECT c.name
+FROM mondial x 
+UNNEST x.mondial.country y
+UNNEST y.province p
+UNNEST p.city c
+WHERE y.name='Peru'
+ORDER BY c.name;
+
+/*
+	Q2.
+	For each country return its name, its population, and the number of religions, sorted alphabetically by country. We are flexible about how you handle countries without the religion attribute, but try to include countries that don't have it. For this, you will need the ARRAY_LENGTH function. 
+
+	Outputs 238 Rows
+*/
+
+SELECT y.name, y.population, array_length(y.religions)
+FROM mondial x
+UNNEST x.mondial.country y
+ORDER BY y.name;
+
+/*
+	Q3.
+	For each country that has provinces return its name, the number of provinces, and the number of cities, sorted alphabetically by country. Notice that for countries that have provinces all cities are listed inside the provinces. 
+
+	Outputs 59 rows
+*/
+
+SELECT DISTINCT y.name Country,
+				array_length(y.province) provinces,
+				count(c) cities
+FROM mondial x
+UNNEST x.mondial.country y
+UNNEST y.province p
+UNNEST p.city c
+WHERE array_length(y.province) > 0
+GROUP BY y.name, array_length(y.province)
+ORDER BY y.name;
+
+/*
+	Q4.
+	Find all countries with 20 provinces or more. Return the country name and the number of provinces. Order descending by the number of provinces and then ascending by the country name. 
+
+	Outputs 26 rows
+*/
+
+SELECT DISTINCT y.name Country,
+       array_length(y.province) Provinces
+FROM mondial x
+UNNEST x.mondial.country y
+UNNEST y.province p
+WHERE array_length(y.province) >= 20
+ORDER BY Provinces DESC, Country ASC;
+
+/*
+	Q5.
+	For each province(state) in the United States, compute the ratio of its population to area, and return each province's name, its computed ratio, and order them descending by the ratio. You need the function TONUMBER(...) to convert a string to a number. 
+
+	Outputs 51 rows
+*/
+
+SELECT p.name province, TONUMBER(p.population) / TONUMBER(p.area) ratio
+FROM mondial x
+UNNEST x.mondial.country y
+UNNEST y.province p
+WHERE y.name = "United States"
+ORDER BY ratio DESC;
+
+/*
+	Q6.
+	For each country return its name and the number of mountains in that country, sorted alphabetically by country. Notice that here you need to join the country collection with the mountain collection. 
+
+	Outputs 43 rows or 84 rows (depending on how you write the query)
+*/
+
+SELECT c.name country, count(m) mountain_count
+FROM mondial x
+UNNEST x.mondial y
+UNNEST y.country c
+UNNEST y.mountain m
+WHERE c.["-car_code"] = m.["-country"]
+GROUP BY c;
+
+/*
+	Q7.
+
+	For each country return its name and the names and heights of all mountains over 2000m high. Return objects of the form country name, mountain name, mountain height where the country name is repeated for each of its mountains. Sort your results by country name and then mountain name. Note: the height attribute is in meters, so you don't have to do any conversions. 
+
+	[Result Size: 149 rows or 168 rows (depending on how you write the query)]
+*/
+
+SELECT c.name country, m.name mountain, m.height height
+FROM mondial x
+UNNEST x.mondial y
+UNNEST y.country c
+UNNEST y.mountain m
+WHERE c.["-car_code"] = m.["-country"]
+AND TONUMBER(m.height) > 2000
+ORDER BY c.name, m.name;
+
+/*
+	Q8.
+
+	For each river which crosses two more more countries, return its name, and the full names (not country code) of the countries that it crosses. Return objects of the form rive name, country name where the river name is repeated for each country it crosses. Sort your answers by the river name and then country name(s). Hint: all rivers that cross two more more countries have a 'located' collection, but some rivers that cross only one country also have a 'located' collection. 
+
+	[Result Size: 144 rows]
+*/
+
+SELECT c.name country, r.name river
+FROM mondial x
+UNNEST x.mondial y
+UNNEST y.country c
+UNNEST y.river r
+UNNEST r.located l
+WHERE c.["-car_code"] = l.["-country"]
+AND array_length(r.located) > 1
+ORDER BY r.name, c.name;
+

@@ -1,0 +1,19 @@
+---
+title: "Home"
+author: "Derek, Eric, Xinbo, Nuo"
+date: "`r Sys.Date()`"
+output: html_document
+
+---
+
+A Visual Representation of College Admission Data
+========
+
+In the 21st century, attending college after graduation high school has been an increasing norm and necessity. Applying for colleges is often a stressful process for high school students. There are thousands of options in the United States, and choosing a college that will not only be a good fit, but also a good target school academically, is no easy task. 
+
+This application was written with prospective college applicants in mind. Researching college information and statistics is a lengthy and tiring process. In order to provide some insight for students going through this process, select data such as admission rates and SAT scores from over 7000 public and private schools in the United States are represented visually in this interactive web application. The aim of representing data in an intuitive manner is to provide a more streamlined and educated experience for students in the process of applying to college. 
+
+## Note
+
+> In 2005, the SAT was altered so the test was scored out of 2400 points. Prior to this, the exam was scored out of 1600 points. On March 5, 2014, College Board announced that the exam would revert to scoring on the 1600 point scale. In the new exam, the essay would be optional, and the exam would be three hours long, with an additional 50 minutes for the essay portion.
+

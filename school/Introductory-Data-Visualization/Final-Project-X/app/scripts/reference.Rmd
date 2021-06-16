@@ -1,0 +1,13 @@
+---
+title: "Reference"
+output: html_document
+---
+
+### Source of Data
+
+This dataset was retrieved from [College Score Card](http://catalog.data.gov/dataset/college-scorecard), and published by the Department of Education, Office of planning, evaluation, and policy development. 
+
+
+### Score Conversion Chart
+
+

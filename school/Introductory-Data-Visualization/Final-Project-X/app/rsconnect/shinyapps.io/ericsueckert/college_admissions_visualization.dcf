@@ -1,0 +1,9 @@
+name: college_admissions_visualization
+account: ericsueckert
+server: shinyapps.io
+appId: 88462
+bundleId: 393437
+url: https://ericsueckert.shinyapps.io/college_admissions_visualization/
+when: 1457729128.75168
+asMultiple: FALSE
+asStatic: FALSE

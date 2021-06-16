@@ -1,0 +1,12 @@
+---
+title: "contact"
+output: html_document
+---
+
+__Eric Eckert__: eric95@uw.edu
+
+__Derek Wang__: d95wang@uw.edu
+
+__Nuo Chen__: nuo@uw.edu
+
+__Xinbo (Edward) Lu__: lux23@uw.edu

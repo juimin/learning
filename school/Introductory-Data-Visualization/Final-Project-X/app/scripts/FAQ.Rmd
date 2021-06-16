@@ -1,0 +1,35 @@
+---
+title: "Frequently Asked Questions"
+output: html_document
+---
+
+### Let's get started!
+
+- This application is meant to be a primary search tool for students to have a general idea of the Universities, for more detailed admission requirements and the most recent statistics please check their official site. 
+- The SAT scores in this dataset is not applicable to scoring on the 2400 point scale. Please refer to the score conversion chart [here](http://magoosh.com/hs/act/act-scores/2016/act-to-new-sat-to-old-sat-score-conversion-chart/)!
+
+
+
+
+
+##### 1. What is the difference between SAT and ACT?
+
+> While both the SAT and ACT are standardized tests recognized by most colleges in the United States, there are some differences between them regarding the test materials. The most immediate difference is that the ACT is also scored on a scale of 1-36, while the SAT is scored on a scale of 400-1600. Both exams include Math, Reading, Writing, and Grammar in various sections. The ACT includes an additional Science section. In terms of test structure, the SAT alternates its subjects between test sections, while the ACT only has one large section for each subject. Questions on the ACT tend to be more straightforward as opposed to questions on the SAT, which require more critical thinking. However, the ACT has a much higher ratio of questions per minute than the SAT. 
+
+##### 2. Which one should I take, SAT or ACT?
+
+> Students ought to take whichever test they prefer (assuming there are available testing locations for both tests). Contrary to what rumors may be heard, neither exam is preferred by colleges over the other. Some students find that the ACT caters to their strengths more so than the SAT, and vice versa. As mentioned in the question above, the exams are structured differently and as a result reward different skills. The SAT is an aptitude test, and therefore places an emphasis on problem solving and critical thinking. Meanwhile the ACT tests basic competency and consistency under a stricter time restraint. Overall it is recommended that a student try and take both. Aside from the testing fee and time, there is no disadvantage to taking both exams, as the student may choose which one to report to his prospective school. 
+
+##### 3. My score is lower than the average score of the school, do I still have a chance?
+
+> Yes, absolutely. While grades and test scores have a considerable impact on your admission decision, most college admission boards conduct a holistic review process that takes into account extracurricular activities and personal accomplishments. Additionally it is important to express oneself in the personal statement that most colleges require you to submit. The personal statement is arguably what makes the greatest difference in setting oneself apart from other applicants. 
+
+##### 4. Am I guaranteed to get in the school if I have a high score?
+
+> This is not necessarily the case. Grades and test scores indeed have an impact on your admission decision. However the admissions board seeks students who are the right fit for their school, and therefore take into account much more than grades and test scores. 
+
+##### 5. I cannot find the test score statistics of my school, what should I do?
+
+> While the data set is quite large, some colleges have yet to submit their admissioin statistics. If you know which college you are looking for, it is recommended that you research the college's statistics separately. It may be helpful to then compare your findings to the data presented here. 
+
+

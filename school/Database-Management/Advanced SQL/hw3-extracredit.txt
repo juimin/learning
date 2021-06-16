@@ -1,0 +1,29 @@
+	Extra Credit
+
+	Using all 6 CSV files in the Extra Credit Files (because it seemed like a good idea at the time)
+
+		Query 1
+			No Indexes
+				CPU time = 3859 ms,  elapsed time = 6205 ms.
+			With Indexes
+				CPU time = 9344 ms,  elapsed time = 15439 ms.
+		Query 2
+			No Indexes
+				CPU time = 8125 ms,  elapsed time = 10285 ms.
+			With Indexes
+				CPU time = 3922 ms,  elapsed time = 7941 ms.
+		Query 3
+			No Indexes
+				CPU time = 4282 ms,  elapsed time = 5307 ms.
+			With Indexes
+				CPU time = 2781 ms,  elapsed time = 4925 ms.
+		Query 4
+			No Indexes
+				Timed Out
+			With Indexes
+				Timed Out
+		Query 5
+			No Indexes
+				CPU time = 7578 ms,  elapsed time = 9908 ms.
+			With Indexes
+				CPU time = 7328 ms,  elapsed time = 23756 ms.
