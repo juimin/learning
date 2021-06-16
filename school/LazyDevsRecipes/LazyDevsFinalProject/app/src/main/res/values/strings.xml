@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EasyGeekRecipe</string>
+    <string name="log_in">Log in</string>
+    <string name="registration">Registration</string>
+    <string name="register">Register</string>
+    <string name="caps_password">PASSWORD</string>
+    <string name="caps_username">USERNAME</string>
+    <string name="caps_confirm_password">CONFIRM PASSWORD</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

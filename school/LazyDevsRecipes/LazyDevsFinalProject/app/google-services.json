@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "108749754832",
+    "firebase_url": "https://easygeekrecipe.firebaseio.com",
+    "project_id": "easygeekrecipe",
+    "storage_bucket": "easygeekrecipe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108749754832:android:495d1efc6a4f830d",
+        "android_client_info": {
+          "package_name": "com.example.lazydevs.lazydevsfinalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108749754832-964nc7egfv2b267ourckecs5srruhhdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBdDLNbiUOy3pSFtECPy_Mug2yVZ3dgMY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
