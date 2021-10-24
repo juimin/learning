@@ -1,3 +1,4 @@
+mod advent;
 use clap::{App, Arg};
 
 fn main() {
@@ -26,8 +27,10 @@ fn main() {
     // Parse the args to get the data we need
     let day: u8 = args.value_of("day").unwrap_or("0")
         .trim().parse().expect("Day needs to be a number");
-    let file = args.value_of("file)").unwrap_or("").to_string();
+    let file = args.value_of("file").unwrap_or("").to_string();
 
     // Log the desire of the user
     println!("Advent of Code 2019 Day {}: Processing {}\n", day, file);
+    
+    advent::run(day, file)
 }
