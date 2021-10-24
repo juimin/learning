@@ -28,3 +28,18 @@ pub fn read_file_as_list_of_i64(file: &String) -> Vec<i64> {
     let values = read_file_as_list(file);
     return values.iter().map(|s| s.parse::<i64>().unwrap()).collect()
 }
+
+pub fn read_comma_sep_lines(file: &String) -> Vec<Vec<String>> {
+    let values = read_file(file);
+    let mut output = Vec::new();
+    for line in &values {
+        output.push(Vec::new());
+        let idx = output.len() - 1;
+        let line_values: Vec<String> = line.split(",").map(|s| s.to_string()).collect();
+        for s in  &line_values {
+            output[idx].push(s.clone())
+        }
+    }
+
+    return output;
+}
