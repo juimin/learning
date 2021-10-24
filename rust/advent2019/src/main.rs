@@ -43,11 +43,11 @@ fn main() {
     println!("Advent of Code 2019 Day {}:", day);
 
     if file.len() == 0 {
-        let mut dir = "./input_data/";
+        let mut dir = "input";
         if testing {
-            dir = "./input_data/"
+            dir = "test"
         }
-        file = format!("{}day{}.txt", dir, day);
+        file = format!("./{}_data/day{}.txt", dir, day);
     }
 
     
