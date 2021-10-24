@@ -1,9 +1,9 @@
 use adventlib;
 
-pub fn rocket_equation(file: String) {
+pub fn rocket_equation(file: &String) {
     println!("The Tyranny of the Rocket Equation\n");
 
-    let module_masses = adventlib::read_file_as_i64(&file);
+    let module_masses = adventlib::read_file_as_i64(file);
 
     let mut required_fuel: i64 = 0;
 

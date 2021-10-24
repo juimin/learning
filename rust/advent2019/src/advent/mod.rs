@@ -1,7 +1,7 @@
 pub mod one;
 pub mod two;
 
-pub fn run(day: u8, file: String) {
+pub fn run(day: u8, file: &String) {
     match day {
         1 => one::rocket_equation(file),
         2 => two::program_alarm(file),

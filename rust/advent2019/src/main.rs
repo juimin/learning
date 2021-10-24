@@ -10,7 +10,7 @@ fn main() {
             Arg::with_name("file")
                 .help("Path to inputs for this challenge")
                 .short("f")
-                .required(true)
+                .required(false)
                 .value_name("file")
                 .takes_value(true)
         )
@@ -27,10 +27,15 @@ fn main() {
     // Parse the args to get the data we need
     let day: u8 = args.value_of("day").unwrap_or("0")
         .trim().parse().expect("Day needs to be a number");
-    let file = args.value_of("file").unwrap_or("").to_string();
+    let mut file = args.value_of("file").unwrap_or("").to_string();
 
     // Log the desire of the user
-    println!("Advent of Code 2019 Day {}: Processing {}\n", day, file);
+    println!("Advent of Code 2019 Day {}:", day);
+
+    if file.len() == 0 {
+        file = format!("./input_data/day{}.txt", day);
+    }
     
-    advent::run(day, file)
+    println!("Processing: {}", &file);
+    advent::run(day, &file)
 }
