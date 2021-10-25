@@ -43,3 +43,36 @@ pub fn read_comma_sep_lines(file: &String) -> Vec<Vec<String>> {
 
     return output;
 }
+
+// From 2019 Problem 2 and 5
+fn run_intcode(intcode: &mut Vec<i64>) {
+    let mut op_code_index = 0;
+    while op_code_index < intcode.len() {
+        match intcode[op_code_index] {
+            1 => {
+                let a = intcode[op_code_index + 1];
+                let b = intcode[op_code_index + 2];
+                let location = intcode[op_code_index + 3];
+                intcode[location as usize] = intcode[a as usize] + intcode[b as usize];
+            },
+            2 => {
+                let a = intcode[op_code_index + 1];
+                let b = intcode[op_code_index + 2];
+                let location = intcode[op_code_index + 3];
+                intcode[location as usize] = intcode[a as usize] * intcode[b as usize];
+            },
+            _ => return
+        }
+
+        // step to the next opcode
+        op_code_index += 4
+    }
+}
+
+// From 2019 Problem 2
+pub fn run_calculation(intcode: &mut Vec<i64>, p1: i64, p2: i64) {
+    // Seed values because instructions say so. comment out for testing
+    intcode[1] = p1;
+    intcode[2] = p2;
+    run_intcode(intcode);
+}

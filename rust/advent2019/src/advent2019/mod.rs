@@ -2,6 +2,7 @@ pub mod one;
 pub mod two;
 pub mod three;
 pub mod four;
+pub mod five;
 
 pub fn run(day: u8, file: &String) {
     match day {
@@ -9,7 +10,7 @@ pub fn run(day: u8, file: &String) {
         2 => two::program_alarm(file),
         3 => three::crossed_wires(file),
         4 => four::secure_container(file),
-        5 => println!("Not implemented\n"),
+        5 => five::sunny_with_a_chance_of_asteroids(file),
         6 => println!("Not implemented\n"),
         7 => println!("Not implemented\n"),
         8 => println!("Not implemented\n"),
