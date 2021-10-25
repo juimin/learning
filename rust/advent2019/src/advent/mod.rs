@@ -1,13 +1,14 @@
 pub mod one;
 pub mod two;
 pub mod three;
+pub mod four;
 
 pub fn run(day: u8, file: &String) {
     match day {
         1 => one::rocket_equation(file),
         2 => two::program_alarm(file),
         3 => three::crossed_wires(file),
-        4 => println!("Not implemented\n"),
+        4 => four::secure_container(file),
         5 => println!("Not implemented\n"),
         6 => println!("Not implemented\n"),
         7 => println!("Not implemented\n"),
