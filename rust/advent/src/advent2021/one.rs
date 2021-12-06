@@ -13,5 +13,19 @@ pub fn sonar_sweep(file: &String) {
         last_input = *input
     }
 
-    println!("Number of inputs: {}", increases)
+    println!("Number of increases: {}", increases);
+
+    increases = 0;
+    let mut last_sum = i64::MAX;
+
+    for i in 0..inputs.len() - 2 {
+        let sum = &inputs[i] + &inputs[i + 1] + &inputs[i + 2];
+
+        if sum > last_sum {
+            increases += 1;
+        }
+        last_sum = sum;
+    }
+
+    println!("Number of increases for windows: {}", increases);
 }
