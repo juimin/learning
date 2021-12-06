@@ -78,7 +78,7 @@ fn main() {
         if testing {
             dir = "test"
         }
-        file = format!("./{}_data/day{}.txt", dir, day);
+        file = format!("./{}_data/{}/day{}.txt", dir, year, day);
     }
 
     println!("Processing: {}", &file);

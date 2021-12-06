@@ -11,22 +11,26 @@ pub fn read_file_with_sep(file: &String, sep: &str) -> Vec<String> {
 
 // Derived Types
 pub fn read_file(file: &String) -> Vec<String> {
-    return read_file_with_sep(file, "\n")
+    return read_file_with_sep(file, "\n");
 }
 
 pub fn read_file_as_list(file: &String) -> Vec<String> {
-    return read_file_with_sep(file, ",")
+    return read_file_with_sep(file, ",");
 }
 
 // More specific
 pub fn read_file_as_i64(file: &String) -> Vec<i64> {
     let values = read_file(file);
-    return values.iter().map(|s| s.parse::<i64>().unwrap()).collect()
+    return values.iter().map(|s| s.parse::<i64>().unwrap()).collect();
 }
 
 pub fn read_file_as_list_of_i64(file: &String) -> Vec<i64> {
-    let values = read_file_as_list(file);
-    return values.iter().map(|s| s.parse::<i64>().unwrap()).collect()
+    return file_to_int_vector(file, ",");
+}
+
+pub fn file_to_int_vector(file: &String, sep: &str) -> Vec<i64> {
+    let values = read_file_with_sep(file, sep);
+    return values.iter().map(|s| s.parse::<i64>().unwrap()).collect();
 }
 
 pub fn read_comma_sep_lines(file: &String) -> Vec<Vec<String>> {
@@ -36,7 +40,7 @@ pub fn read_comma_sep_lines(file: &String) -> Vec<Vec<String>> {
         output.push(Vec::new());
         let idx = output.len() - 1;
         let line_values: Vec<String> = line.split(",").map(|s| s.to_string()).collect();
-        for s in  &line_values {
+        for s in &line_values {
             output[idx].push(s.clone())
         }
     }
@@ -54,14 +58,14 @@ fn run_intcode(intcode: &mut Vec<i64>) {
                 let b = intcode[op_code_index + 2];
                 let location = intcode[op_code_index + 3];
                 intcode[location as usize] = intcode[a as usize] + intcode[b as usize];
-            },
+            }
             2 => {
                 let a = intcode[op_code_index + 1];
                 let b = intcode[op_code_index + 2];
                 let location = intcode[op_code_index + 3];
                 intcode[location as usize] = intcode[a as usize] * intcode[b as usize];
-            },
-            _ => return
+            }
+            _ => return,
         }
 
         // step to the next opcode

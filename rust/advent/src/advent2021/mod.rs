@@ -2,7 +2,7 @@ pub mod one;
 
 pub fn run(day: u8, file: &String) {
     match day {
-        1 => one::rocket_equation(file),
+        1 => one::sonar_sweep(file),
         2 => println!("Not implemented\n"),
         3 => println!("Not implemented\n"),
         4 => println!("Not implemented\n"),
